@@ -1,4 +1,4 @@
-{:site-title                   "HKU TDLEG"
+{:site-title                   "HKU-TDLEG"
  :author                       "HKU-TDLEG"
  :description                  "This blog serves as documentation for HKU-TDLEG-VOLACK and HKU-TDLEG-financial-signaling-game."
  :site-url                     "https://clojure-finance.github.io/HKU-TDLEG-website/"
