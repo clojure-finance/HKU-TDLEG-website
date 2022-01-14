@@ -1,6 +1,6 @@
 # HKU-TDLEG-website
 
-Link to website: coming soon
+Link to website: https://clojure-finance.github.io/HKU-TDLEG-website/
 
 This website is developed with [Cryogen](http://cryogenweb.org/).
 
