@@ -1,6 +1,5 @@
-{:title  "Blog Post-LIN Maoran"
- :layout :post}
-
- ### Blog Post-LIN Maoran
+{:title  "Blog Post-LIN Maoran_20211121"
+ :layout :post
+ :author "LIN Maoran"}
 
  Some initiatives about my project: My project would like to investigate whether the firms’ timing in investment and operation could be effectively used as a signal to evaluate their qualities. Without clear pictures about firms’ real quality, investors and financial institutions would need signals to facilitate their financing decisions. It would be assumed by investors that firms with lower quality would choose to delay their investment and operation while high-performance companies would have earlier implementation of their decisions. Hence, as a strategy to fool outsiders, the low-quality firms would have the signal incentive to mimic the investment timeline as high-quality firms to extract bonus in their loans, while the high- type firm would try to distinct their identities by accelerating their investments and operations. We would like to explore how Clojure could help us build a signaling game model to evaluate the effectiveness of this timing strategy. We would then apply this model with empirical panel data collected by a World Banks’ Enterprise level survey on Chinese enterprises to test its validity.

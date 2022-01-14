@@ -1,10 +1,8 @@
-{:title  "Blog Post-WANG Xizhuo"
+{:title  "Data Science in Finance - First Blog"
  :layout :post
- :author WANG Xizhuo}
+ :author "WANG Xizhuo"}
 
- ## Data Science in Finance - First Blog
-
-### Work I have done these days
+## Work I have done these days
 - Composing the research proposal
 
   This is the first time for me to write a research proposal. I have included all the contents that I regarded necessary for the audience to know what the 
@@ -18,7 +16,7 @@
   I have gone through the [Clojure by examples](http://kimh.github.io/clojure-by-example/#about-this-page). However, only simple syntax may be not 
   enough. Therefore, I will explore more sources the learn the language. 
   
-  ### Difficulties I encountered
+ ## Difficulties I encountered
  - Data collection
 
     I needed historical option data for backtesting. However, in a finance class I attended, I was told that there is actually no free data for option prices.
@@ -30,11 +28,10 @@
   to use call and put options or options with the underlying. However, this may not be a big issue because with all the data and accurate strategy both of them 
   are feasible.   
   
-  ### Heading for the next stage
+  ## Heading for the next stage
   - Getting more familiar with Clojure
 
   After surviving the Bloody Nov, I will do more comprehensive study about Clojure. 
   - Working out strategies
 
   I actually kicked off the outline, but it was just a start. 
-
