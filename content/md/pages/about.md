@@ -3,14 +3,15 @@
  :page-index 1
  :navbar? true}
 
-This page is used for some information of HKU-TDLEG.
+The purpose of the HKU-TDLEG website is to record the progress of our contributors' projects.<br/>
+We will update the website frequently to offer you fresh and up-to-date information.
 
-## Example title
+You can find our HKU-TDLEG repositories at:<br/>
+[HKU-TDLEG-backtesting-strategies-clojure](https://github.com/clojure-finance/HKU-TDLEG-backtesting-strategies-clojure)<br/>
+[HKU-TDLEG-VOLACK](https://github.com/clojure-finance/HKU-TDLEG-VOLACK)<br/>
+[HKU-TDLEG-financial-signaling-game](https://github.com/clojure-finance/HKU-TDLEG-financial-signaling-game)
 
-Example paragraph
+Or alternatively, you can find their link on the lower-left corner of the website.
 
-**Example bold paragraph**
-
-[Example link](https://github.com/clojure-finance/HKU-TDLEG-backtesting-strategies-clojure)
-
-Example only link: <https://github.com/clojure-finance/HKU-TDLEG-VOLACK>
+You can find all our repositories at:<br/>
+[clojure-finance](https://github.com/clojure-finance)
