@@ -7,22 +7,16 @@
     <!-- Website Template designed by www.downloadwebsitetemplates.co.uk -->
     <!-- Modified to fit Cryogen.-->
     <meta charset="UTF-8">
-    <title>HKU-TDLEG: Data Science in Finance - First Blog</title>
+    <title>HKU-TDLEG: Blog Post-LIN Maoran_20211219</title>
     
 <meta name="keywords" content="">
 
-<meta name="description" content="Work I have done these daysComposing the research proposalThis is the first time for me to write a research proposal. I have included all the contents that I regarded necessary for the audience to know what the
-research is doing. However, there are still some parts that need more details.Conducting literature reviewI am reviewing a lot of research that other people have done about hedging strategies. The part that I am most interested in is how they selected data,
-how they came up with the strategy, and also how they put their ideas in practice.Learning ClojureI have gone through the Clojure by examples. However, only simple syntax may be not
-enough. Therefore, I will explore more sources the learn the language.">
+<meta name="description" content="Initial ideas about the signaling game model I wish my Clojure to simulate.Suppose for an investment opportunity with payoff $\pi$, there are two types of firms with different profitability $\lambda_h$ and $\lambda_l$.">
 
-<meta property="og:description" content="Work I have done these daysComposing the research proposalThis is the first time for me to write a research proposal. I have included all the contents that I regarded necessary for the audience to know what the
-research is doing. However, there are still some parts that need more details.Conducting literature reviewI am reviewing a lot of research that other people have done about hedging strategies. The part that I am most interested in is how they selected data,
-how they came up with the strategy, and also how they put their ideas in practice.Learning ClojureI have gone through the Clojure by examples. However, only simple syntax may be not
-enough. Therefore, I will explore more sources the learn the language.">
+<meta property="og:description" content="Initial ideas about the signaling game model I wish my Clojure to simulate.Suppose for an investment opportunity with payoff $\pi$, there are two types of firms with different profitability $\lambda_h$ and $\lambda_l$.">
 
-<meta property="og:url" content="https://clojure-finance.github.io/HKU-TDLEG-website/HKU-TDLEG-website/posts-output/2021-11-21-Blog-Post-WANG-Xizhuo/" />
-<meta property="og:title" content="Data Science in Finance - First Blog" />
+<meta property="og:url" content="https://clojure-finance.github.io/HKU-TDLEG-website/HKU-TDLEG-website/posts-output/2021-12-19-Blog-Post-LIN-Maoran/2021-12-19-Blog-Post-LIN-Maoran/" />
+<meta property="og:title" content="Blog Post-LIN Maoran_20211219" />
 <meta property="og:type" content="article" />
 
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -40,6 +34,17 @@ enough. Therefore, I will explore more sources the learn the language.">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/tomorrow-night-eighties.min.css">
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--To show Markdown formula-->
+    <script>
+        window.MathJax = {
+        tex: {
+          tags: 'ams', /* Enable automatic numbering */
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+      };
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-chtml.js"></script>
 </head>
 <body>
 
@@ -91,33 +96,27 @@ enough. Therefore, I will explore more sources the learn the language.">
 <div id="post">
     <div class="post-header">
     <div id="post-meta" class="row">
-        <strong>2021年11月21日</strong>
+        <strong>2021年12月19日</strong>
         
-        <span class="col-lg-6 right">By: WANG Xizhuo</span>
+        <span class="col-lg-6 right">By: LIN Maoran</span>
         
     </div>
-    <h1>Data Science in Finance - First Blog</h1>
+    <h1>Blog Post-LIN Maoran_20211219</h1>
 </div>
 <div>
     
-    <h2 id="work-i-have-done-these-days">Work I have done these days</h2><ul><li><p>Composing the research proposal</p><p>This is the first time for me to write a research proposal. I have included all the contents that I regarded necessary for the audience to know what the
-research is doing. However, there are still some parts that need more details.</p></li><li><p>Conducting literature review</p><p>I am reviewing a lot of research that other people have done about hedging strategies. The part that I am most interested in is how they selected data,
-how they came up with the strategy, and also how they put their ideas in practice.</p></li><li><p>Learning Clojure</p><p>I have gone through the <a href="http://kimh.github.io/clojure-by-example/#about-this-page">Clojure by examples</a>. However, only simple syntax may be not
-enough. Therefore, I will explore more sources the learn the language.</p></li></ul><h2 id="difficulties-i-encountered">Difficulties I encountered</h2><ul><li><p>Data collection</p><p>I needed historical option data for backtesting. However, in a finance class I attended, I was told that there is actually no free data for option prices.
-I raised this question in our meeting, and thanks to Dr.Gao, I was referred to the <a href="https://wrds-www.wharton.upenn.edu/">WRDS</a> website. HKU has subscribed the
-data, and now I am learning how to make queries to get the data I want.</p></li><li><p>Settle down the strategy</p><p>I should admit that I am still at the exploring stage. I know I have to do delta hedging, but still hesitate about what kind of securities I should use. I can
-to use call and put options or options with the underlying. However, this may not be a big issue because with all the data and accurate strategy both of them
-are feasible.</p></li></ul><h2 id="heading-for-the-next-stage">Heading for the next stage</h2><ul><li>Getting more familiar with Clojure</li></ul><p>After surviving the Bloody Nov, I will do more comprehensive study about Clojure.</p><ul><li>Working out strategies</li></ul><p>I actually kicked off the outline, but it was just a start.</p>
+    <p>Initial ideas about the signaling game model I wish my Clojure to simulate.</p><p>Suppose for an investment opportunity with payoff $\pi$, there are two types of firms with different profitability $\lambda_h$ and $\lambda_l$.</p><p>Considering their needs of investment $I$ for this opportunity, firms would send investment offer to investors.</p><p>Firms will try to signal investors that their quality types $\lambda$, preferably, as high-quality firms $\lambda_h$. However, the real $\lambda$ is private information and can only be estimated by investors with beliefs.</p><ol><li><p>The investors’ beliefs about the firms’ quality could be represented by their expectation about the probability $p$ that the investment offer is sent by a low-type firm. Hence, $1-p$ represents the probability of a high-type firm.</p></li><li><p>For investors, their beliefs could be $\tilde{\lambda} = p\lambda_l+(1-p)\lambda_h$</p></li></ol><p>During the financing process, the investors will receive their stakes $s(\pi,\tilde{\lambda})$. In debt financing, it would be the interest of loan.</p><p>Therefore, the firms and investors’ strategies and payoffs in this model would be:</p><ol><li><p>The investors’ preferred payoff from accepting this offer would be $s(\pi,\tilde{\lambda})$, which should be $\ge$ payoff $I(1+r)$ from leaving their investments $I$ with interest rate $r$.</p></li><li><p>The firms’ preferred payoff from accepting this offer should be $(\lambda_h\pi)-s(\pi,\tilde{\lambda})$ or $(\lambda_l\pi)-s(\pi,\tilde{\lambda})$, which should be $\ge$ payoff $0$ from giving up.</p></li></ol><p>Since the project is about the signaling effects of firms’ investment timing options, the next step to build this model is to incorporate the time-series variable $t$ and $\pi_t$ influencing the investors’ probabilistic beliefs about firms’ quality, $\tilde{\lambda}$ and $p$.
+<br /><br /></p><h3 id="sources">Sources</h3><p>Vrankić, I., &amp; Skoko, P. (2021). The signaling game of a firm with unknown profitability and an investor. <em>Interdisciplinary Description of Complex Systems</em>, 19(3), 437-448. doi: http://dx.doi.org/10.7906/indecs.19.3.7</p><p>Wang, Q., &amp; Kwok, Y. K. (2020). Real option signaling games of debt financing using equity guarantee swaps under asymmetric information. <em>International Journal of Theoretical and Applied Finance</em>, 23(05), 2050036.</p>
 </div>
 
 <br/>
 
     <div id="prev-next">
         
-        <a class="button" href="/HKU-TDLEG-website/posts-output/2021-12-19-Blog-Post-LIN-Maoran/">&laquo; Blog Post-LIN Maoran_20211219</a>
+        <a class="button" href="/HKU-TDLEG-website/posts-output/2022-01-02-Blog-Post-LIN-Maoran/2022-01-02-Blog-Post-LIN-Maoran/">&laquo; Blog Post-LIN Maoran_20220102</a>
         
         
-        <a class="right button" href="/HKU-TDLEG-website/posts-output/2021-11-21-Blog-Post-LIN-Maoran/">Blog Post-LIN Maoran_20211121 &raquo;</a>
+        <a class="right button" href="/HKU-TDLEG-website/posts-output/2021-11-21-Blog-Post-WANG-Xizhuo/2021-11-21-Blog-Post-WANG-Xizhuo/">Data Science in Finance - First Blog &raquo;</a>
         
     </div>
 

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<head>
+    <!-- Website Template designed by www.downloadwebsitetemplates.co.uk -->
+    <!-- Modified to fit Cryogen.-->
+    <meta charset="UTF-8">
+    <title>HKU-TDLEG: Blog Post-LIN Maoran_20220117</title>
+    
+<meta name="keywords" content="">
+
+<meta name="description" content="Some Concessions I made.When constructing my game model, I found that I was too ambitious when trying to incorporate time series factors and what I had done just made the whole model too intricate for me. Hence, I made some concession and returned to my initial signaling model. It was the model proposed by R. Gibbons (1992) about the signaling effects of firms’ equity share offer when seeking for financing.">
+
+<meta property="og:description" content="Some Concessions I made.When constructing my game model, I found that I was too ambitious when trying to incorporate time series factors and what I had done just made the whole model too intricate for me. Hence, I made some concession and returned to my initial signaling model. It was the model proposed by R. Gibbons (1992) about the signaling effects of firms’ equity share offer when seeking for financing.">
+
+<meta property="og:url" content="https://clojure-finance.github.io/HKU-TDLEG-website/HKU-TDLEG-website/posts-output/2022-01-17-Blog-Post-LIN-Maoran/2022-01-17-Blog-Post-LIN-Maoran/" />
+<meta property="og:title" content="Blog Post-LIN Maoran_20220117" />
+<meta property="og:type" content="article" />
+
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57.png">
+    <link rel="shortcut icon" href="images/ico/favicon.png">
+    <!--[if IE]><![endif]-->
+    <link href="/HKU-TDLEG-website/css/buttons.css" rel="stylesheet" type="text/css" />
+    <link href="/HKU-TDLEG-website/css/menu.css" rel="stylesheet" type="text/css" />
+    <link href="/HKU-TDLEG-website/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="/HKU-TDLEG-website/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/HKU-TDLEG-website/css/typography.css" rel="stylesheet" type="text/css" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/tomorrow-night-eighties.min.css">
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--To show Markdown formula-->
+    <script>
+        window.MathJax = {
+        tex: {
+          tags: 'ams', /* Enable automatic numbering */
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+      };
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-chtml.js"></script>
+</head>
+<body>
+
+<div id="left">
+
+    <p id="logo">
+        <a title="HKU-TDLEG" href="/HKU-TDLEG-website/">
+            <span class="fa fa-sitemap"></span>
+            <span class="text">HKU-TDLEG</span>
+        </a>
+    </p>
+
+    <div id="menucont" class="bodycontainer clearfix">
+        <div class="menutitle">
+            <p><span class="fa fa-reorder"></span><strong>Menu</strong></p>
+        </div>
+        <ul class="menu">
+            <li ><a title="Home" href="/HKU-TDLEG-website/">Home</a></li>
+            
+            
+            <li >
+                <a href="/HKU-TDLEG-website/pages-output/about/">About</a>
+            </li>
+            
+            <li >
+                <a href="/HKU-TDLEG-website/pages-output/content/">Content</a>
+            </li>
+            
+            <li ><a title="Archives" href="/HKU-TDLEG-website/archives/">Archives</a></li>
+        </ul>
+    </div>
+
+    <div id="socialmedia" class="clearfix">
+        <ul>
+            <li><a title="HKU-TDLEG-backtesting-strategies-clojure" href="https://github.com/clojure-finance/HKU-TDLEG-backtesting-strategies-clojure" rel="external"><span class="fa fa-github"></span></a></li>
+            <li><a title="HKU-TDLEG-VOLACK" href="https://github.com/clojure-finance/HKU-TDLEG-VOLACK" rel="external"><span class="fa fa-github"></span></a></li>
+            <li><a title="HKU-TDLEG-financial-signaling-game" href="https://github.com/clojure-finance/HKU-TDLEG-financial-signaling-game" rel="external"><span class="fa fa-github"></span></a></li>
+            <!--<li><a title="Stack Overflow" href="./" rel="external"><span class="fa fa-stack-overflow"></span></a></li>-->
+            <!--<li><a title="Google+" href="./" rel="external"><span class="fa fa-google-plus"></span></a></li>-->
+            <!--<li><a title="LinkedIn" href="./" rel="external"><span class="fa fa-linkedin"></span></a></li>-->
+            <!--<li><a title="Last.fm" href="./" rel="external"><span class="fa fa-lastfm"></span></a></li>-->
+        </ul>
+    </div>
+
+</div>
+
+<div id="right" class="clearfix">
+    
+<div id="post">
+    <div class="post-header">
+    <div id="post-meta" class="row">
+        <strong>2022年1月17日</strong>
+        
+        <span class="col-lg-6 right">By: LIN Maoran</span>
+        
+    </div>
+    <h1>Blog Post-LIN Maoran_20220117</h1>
+</div>
+<div>
+    
+    <p>Some Concessions I made.</p><p>When constructing my game model, I found that I was too ambitious when trying to incorporate time series factors and what I had done just made the whole model too intricate for me. Hence, I made some concession and returned to my initial signaling model. It was the model proposed by R. Gibbons (1992) about the signaling effects of firms’ equity share offer when seeking for financing.</p><p>As is noted in Gibbons (1992), we could assume there were two types of firms with profitability $\pi$: $H$ and $L$. To attract investment $I$ for a project with Revenue $R$, firms could provide an equity share $0 \le s \le 1$ offer for their investors. n Clojure, initially, I was using some random data.</p><pre><code>(def exogenous (ds/-&gt;dataset "resources/raw-data.csv"))
+(def I (atom (nth (exogenous "I") 0)))
+(def R (atom (nth (exogenous "R") 0)))
+    (def rate (atom (nth (exogenous "r") 0)))
+    (def H (atom (nth (exogenous "H") 0)))
+(def L (atom (nth (exogenous "L") 0)))
+</code></pre><p>*Here I was using atom to make these data mutable. I will do numerous tests afterwards. This will give me more flexibility in experimentation.</p><p>This project should have more attractiveness than investing elsewhere, which is revealed in:</p><p>$$ R \ge I (1 + r) $$</p><ol><li>Therefore, for firms’ benchmark, their net profit after the offer should be larger than rejecting this project and continuing their own works.</li></ol><p>$$ (1 - s)(\pi + R) \ge \pi $$</p><p><span r="">$$s \le \frac</span>{(\pi + R)}$$</p><pre><code>(defn benchmark-firm
+"The firms' benchmark of s" [P] (/ @R (+ @R P)))
+</code></pre><ol start="2"><li>For investors’ benchmark, with beliefs that there is probability $q$ that the offer was sent by a low-type firm, their stakes should be larger than investing elsewhere. Hence:</li></ol><p>$$s \ge \frac{I (1 + r)}{(qL + (1 - q)H + R)} = f(q)$$</p><pre><code>(defn benchmark-investor
+"The firms' benchmark of s" [q]
+(/ (* @I (+ 1 @rate)) (+ (* q @L) (* (- 1 q) @H) @R)))
+</code></pre><ol start="3"><li>Hence, the firms will decide to accept or reject the offer according to investors’ belief and benchmark $f(q)$. If investors’ benchmark exceeds their own benchmark, then they will reject the offer.</li></ol><pre><code>(defn cond-test-high [q] (cond (&lt; (benchmark-firm @H) (benchmark-investor q)) "Reject the Offer." :else (benchmark-investor q)))
+</code></pre><p>We could also do it for low type firms, and compare whether there is a pooling or separating equilibrium.</p><pre><code>(defn outcome [a b] (if (and (number? a) (number? b)) "pool" "separate"))
+</code></pre><p>*Here, I did not compare whether $a=b$ (they should be the same if both types of firms accept the offer). The programming calculation was too precise that even an ignorable different could be evaluated as separate. Therefore, when getting the outcome, comparing whether they are the same datatype will be handier for me to get the “real” separating equilibrium.</p><ol start="4"><li>Then I could start my experimentation with different beliefs $q$ using <em>tech.ml.dataset</em>.</li></ol><pre><code>(ds/write! (assoc (ds/-&gt;dataset "resources/test-data.csv") "q" (range 0 1.005 0.005)) "resources/test-data.csv")
+(def test-data (ds/-&gt;dataset "resources/test-data.csv"))
+(-&gt; test-data
+    (assoc (str "R") @R) (assoc (str "I") @I) (assoc (str "r") @rate) (assoc (str "H") @H)
+    (assoc (str "L") @L) (ds/write! "resources/test-outcome.csv"))
+(-&gt; (ds/-&gt;dataset "resources/test-outcome.csv")
+    (assoc (str "equilibrium-high") (for [q ((ds/-&gt;dataset "resources/test-outcome.csv") "q") :let [outcome-high (cond-test-high q)]] outcome-high))
+    (assoc (str "equilibrium-low") (for [q ((ds/-&gt;dataset "resources/test-outcome.csv") "q") :let [outcome-low (cond-test-low q)]] outcome-low))
+    (ds/write! "resources/test-outcome.csv"))
+(-&gt; (ds/-&gt;dataset "resources/test-outcome.csv") (assoc (str "outcome") (for
+    [high ((ds/-&gt;dataset "resources/test-outcome.csv") (str "equilibrium-high"))
+    low ((ds/-&gt;dataset "resources/test-outcome.csv") (str "equilibrium-low"))
+    :let [outcome (outcome high low)]] outcome))
+    (ds/write! "resources/test-outcome.csv"))
+(println (ds/head (ds/-&gt;dataset "resources/test-outcome.csv")))
+</code></pre><ol start="5"><li>I could also visualize my data using <em>tech-viz</em>.<br /><img src="/HKU-TDLEG-website/posts/2022-01-17-Blog-Post-LIN-Maoran/1.jpg" alt="data visualization" /></li></ol><pre><code>(as-&gt; (ds/-&gt;dataset "resources/test-outcome.csv") test-outcome
+(ds/mapseq-reader test-outcome)
+(vega/scatterplot test-outcome "q" "equilibrium-low"
+    {:title "Equilibrium"
+    :label-key "equilibrium-high"
+    :background "white"})
+(vega/vega-&gt;svg-file test-outcome "resources/outcome.svg"))
+</code></pre><p>*Here, since <em>tech.viz</em> has the Label-key function, I could use different labels to discern under which $q$ there will be a separating equilibrium. According to Vrankić and Skoko (2021), since in this model, the separating equilibrium would happen when high-type firms rejecting the offer, we could differentiate the equilibrium situation using high-type firms’ equilibrium as label.</p><ol start="6"><li>Multiple experimentation was made. Since the exogenous variables were denoted using atom, they became easily convertible using reset or swap.</li></ol><pre><code>(let [max 29] (loop [n 1] (if (= n max) (println "Done!")
+(do (reset! R (nth (exogenous "R") n)) (reset! I (nth (exogenous "I") n))
+(reset! rate (nth (exogenous "r") n))
+…. (recur (inc n))))))
+</code></pre><p>That’s how I constructed a simple signaling game model. The next step is to test this model using real data. The tentative plan is to use tech.ml.dataset to do data manipulation and try to resolve the regression problems using <em>scicloj.ml</em>. I should also have further literature review to gear myself up with more game model knowledges.
+<br /><br /></p><h3 id="source">Source</h3><p>Gibbons, R. (1992). Game Theory for Applied Economists. Princeton: Princeton University Press.</p><p>Vrankić, I., &amp; Skoko, P. (2021). The signaling game of a firm with unknown profitability and an investor. <em>Interdisciplinary Description of Complex Systems</em>, 19(3), 437-448. doi: http://dx.doi.org/10.7906/indecs.19.3.7</p>
+</div>
+
+<br/>
+
+    <div id="prev-next">
+        
+        <a class="button" href="/HKU-TDLEG-website/posts-output/2022-01-17-Blog-Post-WANG-Xizhuo/2022-01-17-Blog-Post-WANG-Xizhuo/">&laquo; Data Science in Finance - Second Blog</a>
+        
+        
+        <a class="right button" href="/HKU-TDLEG-website/posts-output/2022-01-02-Blog-Post-LIN-Maoran/2022-01-02-Blog-Post-LIN-Maoran/">Blog Post-LIN Maoran_20220102 &raquo;</a>
+        
+    </div>
+
+    
+
+
+</div>
+
+<hr/>
+<div id="footercont" class="clearfix">Copyright &copy; 2022 HKU-TDLEG
+    <p>Powered by <a href="http://cryogenweb.org" target="blank">Cryogen</a></p>
+
+</div>
+</div>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="/HKU-TDLEG-website/js/highlight.pack.js" type="application/javascript"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="/HKU-TDLEG-website/js/scripts.js" type="application/javascript"></script>
+
+
+</body>
+</html>

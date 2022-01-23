@@ -7,16 +7,16 @@
     <!-- Website Template designed by www.downloadwebsitetemplates.co.uk -->
     <!-- Modified to fit Cryogen.-->
     <meta charset="UTF-8">
-    <title>HKU-TDLEG: Blog Post-LIN Maoran_20211219</title>
+    <title>HKU-TDLEG: Blog Post-LIN Maoran_20211121</title>
     
 <meta name="keywords" content="">
 
-<meta name="description" content="Initial ideas about the signaling game model I wish my Clojure to simulate.Suppose for an investment opportunity with payoff $\pi$, there are two types of firms with different profitability $\lambda_h$ and $\lambda_l$.">
+<meta name="description" content="Some initiatives about my project: My project would like to investigate whether the firms’ timing in investment and operation could be effectively used as a signal to evaluate their qualities. Without clear pictures about firms’ real quality, investors and financial institutions would need signals to facilitate their financing decisions. It would be assumed by investors that firms with lower quality would choose to delay their investment and operation while high-performance companies would have earlier implementation of their decisions. Hence, as a strategy to fool outsiders, the low-quality firms would have the signal incentive to mimic the investment timeline as high-quality firms to extract bonus in their loans, while the high- type firm would try to distinct their identities by accelerating their investments and operations. We would like to explore how Clojure could help us build a signaling game model to evaluate the effectiveness of this timing strategy. We would then apply this model with empirical panel data collected by a World Banks’ Enterprise level survey on Chinese enterprises to test its validity.">
 
-<meta property="og:description" content="Initial ideas about the signaling game model I wish my Clojure to simulate.Suppose for an investment opportunity with payoff $\pi$, there are two types of firms with different profitability $\lambda_h$ and $\lambda_l$.">
+<meta property="og:description" content="Some initiatives about my project: My project would like to investigate whether the firms’ timing in investment and operation could be effectively used as a signal to evaluate their qualities. Without clear pictures about firms’ real quality, investors and financial institutions would need signals to facilitate their financing decisions. It would be assumed by investors that firms with lower quality would choose to delay their investment and operation while high-performance companies would have earlier implementation of their decisions. Hence, as a strategy to fool outsiders, the low-quality firms would have the signal incentive to mimic the investment timeline as high-quality firms to extract bonus in their loans, while the high- type firm would try to distinct their identities by accelerating their investments and operations. We would like to explore how Clojure could help us build a signaling game model to evaluate the effectiveness of this timing strategy. We would then apply this model with empirical panel data collected by a World Banks’ Enterprise level survey on Chinese enterprises to test its validity.">
 
-<meta property="og:url" content="https://clojure-finance.github.io/HKU-TDLEG-website/HKU-TDLEG-website/posts-output/2021-12-19-Blog-Post-LIN-Maoran/" />
-<meta property="og:title" content="Blog Post-LIN Maoran_20211219" />
+<meta property="og:url" content="https://clojure-finance.github.io/HKU-TDLEG-website/HKU-TDLEG-website/posts-output/2021-11-21-Blog-Post-LIN-Maoran/2021-11-21-Blog-Post-LIN-Maoran/" />
+<meta property="og:title" content="Blog Post-LIN Maoran_20211121" />
 <meta property="og:type" content="article" />
 
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -34,6 +34,17 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/tomorrow-night-eighties.min.css">
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--To show Markdown formula-->
+    <script>
+        window.MathJax = {
+        tex: {
+          tags: 'ams', /* Enable automatic numbering */
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+      };
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-chtml.js"></script>
 </head>
 <body>
 
@@ -85,27 +96,24 @@
 <div id="post">
     <div class="post-header">
     <div id="post-meta" class="row">
-        <strong>2021年12月19日</strong>
+        <strong>2021年11月21日</strong>
         
         <span class="col-lg-6 right">By: LIN Maoran</span>
         
     </div>
-    <h1>Blog Post-LIN Maoran_20211219</h1>
+    <h1>Blog Post-LIN Maoran_20211121</h1>
 </div>
 <div>
     
-    <p>Initial ideas about the signaling game model I wish my Clojure to simulate.</p><p>Suppose for an investment opportunity with payoff $\pi$, there are two types of firms with different profitability $\lambda_h$ and $\lambda_l$.</p><p>Considering their needs of investment $I$ for this opportunity, firms would send investment offer to investors.</p><p>Firms will try to signal investors that their quality types $\lambda$, preferably, as high-quality firms $\lambda_h$. However, the real $\lambda$ is private information and can only be estimated by investors with beliefs.</p><ol><li><p>The investors’ beliefs about the firms’ quality could be represented by their expectation about the probability $p$ that the investment offer is sent by a low-type firm. Hence, $1-p$ represents the probability of a high-type firm.</p></li><li><p>For investors, their beliefs could be $\tilde{\lambda} = p\lambda_l+(1-p)\lambda_h$</p></li></ol><p>During the financing process, the investors will receive their stakes $s(\pi,\tilde{\lambda})$. In debt financing, it would be the interest of loan.</p><p>Therefore, the firms and investors’ strategies and payoffs in this model would be:</p><ol><li><p>The investors’ preferred payoff from accepting this offer would be $s(\pi,\tilde{\lambda})$, which should be $\ge$ payoff $I(1+r)$ from leaving their investments $I$ with interest rate $r$.</p></li><li><p>The firms’ preferred payoff from accepting this offer should be $(\lambda_h\pi)-s(\pi,\tilde{\lambda})$ or $(\lambda_l\pi)-s(\pi,\tilde{\lambda})$, which should be $\ge$ payoff $0$ from giving up.</p></li></ol><p>Since the project is about the signaling effects of firms’ investment timing options, the next step to build this model is to incorporate the time-series variable $t$ and $\pi_t$ influencing the investors’ probabilistic beliefs about firms’ quality, $\tilde{\lambda}$ and $p$.
-<br /><br /></p><h3 id="sources">Sources</h3><p>Vrankić, I., &amp; Skoko, P. (2021). The signaling game of a firm with unknown profitability and an investor. <em>Interdisciplinary Description of Complex Systems</em>, 19(3), 437-448. doi: http://dx.doi.org/10.7906/indecs.19.3.7</p><p>Wang, Q., &amp; Kwok, Y. K. (2020). Real option signaling games of debt financing using equity guarantee swaps under asymmetric information. <em>International Journal of Theoretical and Applied Finance</em>, 23(05), 2050036.</p>
+    <p>Some initiatives about my project: My project would like to investigate whether the firms’ timing in investment and operation could be effectively used as a signal to evaluate their qualities. Without clear pictures about firms’ real quality, investors and financial institutions would need signals to facilitate their financing decisions. It would be assumed by investors that firms with lower quality would choose to delay their investment and operation while high-performance companies would have earlier implementation of their decisions. Hence, as a strategy to fool outsiders, the low-quality firms would have the signal incentive to mimic the investment timeline as high-quality firms to extract bonus in their loans, while the high- type firm would try to distinct their identities by accelerating their investments and operations. We would like to explore how Clojure could help us build a signaling game model to evaluate the effectiveness of this timing strategy. We would then apply this model with empirical panel data collected by a World Banks’ Enterprise level survey on Chinese enterprises to test its validity.</p>
 </div>
 
 <br/>
 
     <div id="prev-next">
         
-        <a class="button" href="/HKU-TDLEG-website/posts-output/2022-01-02-Blog-Post-LIN-Maoran/">&laquo; Blog Post-LIN Maoran_20220102</a>
+        <a class="button" href="/HKU-TDLEG-website/posts-output/2021-11-21-Blog-Post-WANG-Xizhuo/2021-11-21-Blog-Post-WANG-Xizhuo/">&laquo; Data Science in Finance - First Blog</a>
         
-        
-        <a class="right button" href="/HKU-TDLEG-website/posts-output/2021-11-21-Blog-Post-WANG-Xizhuo/">Data Science in Finance - First Blog &raquo;</a>
         
     </div>
 

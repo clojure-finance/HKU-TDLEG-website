@@ -11,11 +11,11 @@
     
 <meta name="keywords" content="">
 
-<meta name="description" content="Given that the project is about the signaling effect of firms’ investing time selection, we should also incorporate $t$ to see how it affects investors’ beliefs.The first step is making a more detailed definition about the firms’ quality $\lambda$. Suppose we have the project with the success rate $p$$0$, and failure rate $p$$i$$=1−p$$0$. It is the firm deciding at which date $t \ge 0$ it will invest. The rationale of delaying investment is to do experiment and learn about the project, the longer they need to learn, the lower quality the firms have. According to Vrankić and Skoko (2021), this learning process could be following a Poisson process with $\lambda$ as the intensity of observing a low-quality project in firms’ experiment if $\lambda \ge 0$. Hence, the higher the $\lambda$ is, the lower type the firm belongs to.">
+<meta name="description" content="Given that the project is about the signaling effect of firms’ investing time selection, we should also incorporate $t$ to see how it affects investors’ beliefs.The first step is making a more detailed definition about the firms’ quality $\lambda$. Suppose we have the project with the success rate $p_0$, and failure rate $p_i=1−p_0$. It is the firm deciding at which date $t \ge 0$ it will invest. The rationale of delaying investment is to do experiment and learn about the project, the longer they need to learn, the lower quality the firms have. According to Vrankić and Skoko (2021), this learning process could be following a Poisson process with $\lambda$ as the intensity of observing a low-quality project in firms’ experiment if $\lambda \ge 0$. Hence, the higher the $\lambda$ is, the lower type the firm belongs to.">
 
-<meta property="og:description" content="Given that the project is about the signaling effect of firms’ investing time selection, we should also incorporate $t$ to see how it affects investors’ beliefs.The first step is making a more detailed definition about the firms’ quality $\lambda$. Suppose we have the project with the success rate $p$$0$, and failure rate $p$$i$$=1−p$$0$. It is the firm deciding at which date $t \ge 0$ it will invest. The rationale of delaying investment is to do experiment and learn about the project, the longer they need to learn, the lower quality the firms have. According to Vrankić and Skoko (2021), this learning process could be following a Poisson process with $\lambda$ as the intensity of observing a low-quality project in firms’ experiment if $\lambda \ge 0$. Hence, the higher the $\lambda$ is, the lower type the firm belongs to.">
+<meta property="og:description" content="Given that the project is about the signaling effect of firms’ investing time selection, we should also incorporate $t$ to see how it affects investors’ beliefs.The first step is making a more detailed definition about the firms’ quality $\lambda$. Suppose we have the project with the success rate $p_0$, and failure rate $p_i=1−p_0$. It is the firm deciding at which date $t \ge 0$ it will invest. The rationale of delaying investment is to do experiment and learn about the project, the longer they need to learn, the lower quality the firms have. According to Vrankić and Skoko (2021), this learning process could be following a Poisson process with $\lambda$ as the intensity of observing a low-quality project in firms’ experiment if $\lambda \ge 0$. Hence, the higher the $\lambda$ is, the lower type the firm belongs to.">
 
-<meta property="og:url" content="https://clojure-finance.github.io/HKU-TDLEG-website/HKU-TDLEG-website/posts-output/2022-01-02-Blog-Post-LIN-Maoran/" />
+<meta property="og:url" content="https://clojure-finance.github.io/HKU-TDLEG-website/HKU-TDLEG-website/posts-output/2022-01-02-Blog-Post-LIN-Maoran/2022-01-02-Blog-Post-LIN-Maoran/" />
 <meta property="og:title" content="Blog Post-LIN Maoran_20220102" />
 <meta property="og:type" content="article" />
 
@@ -34,6 +34,17 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/tomorrow-night-eighties.min.css">
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--To show Markdown formula-->
+    <script>
+        window.MathJax = {
+        tex: {
+          tags: 'ams', /* Enable automatic numbering */
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+      };
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-chtml.js"></script>
 </head>
 <body>
 
@@ -94,7 +105,7 @@
 </div>
 <div>
     
-    <p>Given that the project is about the signaling effect of firms’ investing time selection, we should also incorporate $t$ to see how it affects investors’ beliefs.</p><p>The first step is making a more detailed definition about the firms’ quality $\lambda$. Suppose we have the project with the success rate $p$<sub>$0$</sub>, and failure rate $p$<sub>$i$</sub>$=1−p$<sub>$0$</sub>. It is the firm deciding at which date $t \ge 0$ it will invest. The rationale of delaying investment is to do experiment and learn about the project, the longer they need to learn, the lower quality the firms have. According to Vrankić and Skoko (2021), this learning process could be following a Poisson process with $\lambda$ as the intensity of observing a low-quality project in firms’ experiment if $\lambda \ge 0$. Hence, the higher the $\lambda$ is, the lower type the firm belongs to.</p><p>Hence, the total probability of observing a successful project in firms’ experiment before $t$ would be:</p><p>$$x(\lambda, t)=p_0+(1-p_0)e^{-\lambda t}$$</p><p>Therefore, the beliefs of firms at t about a successfully investment would be:</p><p>$$p<sup>*(\lambda, t)=\frac{p_0}{p_0+(1-p_0)e</sup>{-\lambda t}}$$</p><p><strong>1. Under symmetrical information, this belief will also be known by investors.</strong></p><p>In Clojure, the beliefs under symmetrical information could be denoted as:</p><pre><code>(defn dilute
+    <p>Given that the project is about the signaling effect of firms’ investing time selection, we should also incorporate $t$ to see how it affects investors’ beliefs.</p><p>The first step is making a more detailed definition about the firms’ quality $\lambda$. Suppose we have the project with the success rate $p_0$, and failure rate $p_i=1−p_0$. It is the firm deciding at which date $t \ge 0$ it will invest. The rationale of delaying investment is to do experiment and learn about the project, the longer they need to learn, the lower quality the firms have. According to Vrankić and Skoko (2021), this learning process could be following a Poisson process with $\lambda$ as the intensity of observing a low-quality project in firms’ experiment if $\lambda \ge 0$. Hence, the higher the $\lambda$ is, the lower type the firm belongs to.</p><p>Hence, the total probability of observing a successful project in firms’ experiment before $t$ would be:</p><p>$$ x (\lambda, t) = p_0 + (1 - p_0) e^{-\lambda t} $$</p><p>Therefore, the beliefs of firms at t about a successfully investment would be:</p><p>$$ p<sup><span p_0="">{\ast} (\lambda, t) = \frac</span>{p_0 + (1 - p_0) e</sup>{-\lambda t}} $$</p><p><strong>1. Under symmetrical information, this belief will also be known by investors.</strong></p><p>In Clojure, the beliefs under symmetrical information could be denoted as:</p><pre><code>(defn dilute
 "The impacts of observing low quality project in learning"
     [t lamag]
 (Math/exp (- 0 (* lamag t))))
@@ -106,7 +117,7 @@
     "the beliefs of firms at t about a successfully investment"
     [t lamag]
 (/ po (possible t lamag)))
-</code></pre><p><strong>2. However, under asymmetrical information, the investors’ belief about the projects’ success rate should merely be determined by their beliefs $p$ about the firms’ quality in market.</strong></p><p>For investors, their expectation for firms to observe a successful investment project in their experiments would be:</p><p>$$\tilde{x}(\lambda, t)=p*x(\lambda_l, t)+(1-p)*x(\lambda_h, t)$$</p><p>Then, the investors beliefs about the probability of a successful investment would be:</p><p>$$\tilde{p}(t)=\frac{p_0}{\tilde{x}(\lambda, t)}$$</p><p>However, the firms’ beliefs would still be:</p><p>$$x(\lambda, t)=p_0+(1-p_0)e^{-\lambda t}$$</p><p>In Clojure, the investors’ beliefs under asymmetrical information could be denoted as:</p><p>;;lamago is the low-type firm’s quality $\lambda_h$, while lamagi is the high-type firm’s quality $\lambda_l$.</p><pre><code>(def lamago 0.8)
+</code></pre><p><strong>2. However, under asymmetrical information, the investors’ belief about the projects’ success rate should merely be determined by their beliefs $p$ about the firms’ quality in market.</strong></p><p>For investors, their expectation for firms to observe a successful investment project in their experiments would be:</p><p><span x="">$$ \tilde</span>(\lambda, t)=p \ast x(\lambda_l, t)+(1-p) \ast x(\lambda_h, t) $$</p><p>Then, the investors beliefs about the probability of a successful investment would be:</p><p><span p="">$$ \tilde</span><span p_0=""> (t) = \frac</span><span x="">{\tilde</span> (\lambda, t)} $$</p><p>However, the firms’ beliefs would still be:</p><p>$$x(\lambda, t)=p_0+(1-p_0)e^{-\lambda t}$$</p><p>In Clojure, the investors’ beliefs under asymmetrical information could be denoted as:</p><p>;;lamago is the low-type firm’s quality $\lambda_h$, while lamagi is the high-type firm’s quality $\lambda_l$.</p><pre><code>(def lamago 0.8)
 (def lamagi 0.3)
 (defn exppossible
     "The investors expected beliefs about observing a successful investment project."
@@ -120,15 +131,17 @@
 </code></pre><p><strong>3. Then, we could incorporate the beliefs into firms’ payoffs and benchmark.</strong></p><p>Here, the firms’ payoff upon a selected investing time t will be $W(\lambda, p, t)=x(\lambda, t)[p(\lambda, t)\pi-I-s(\pi, \tilde{\lambda}, t)]$. To accept the offer, this should be $\ge$ payoff $0$ from giving up.</p><p>The investors’ payoff would be: $s(\pi, \tilde{\lambda}, t)$. To accept the offer, this should be $ge$ payoff $I(1+r)^t-I$ from leaving their investment elsewhere with interest rate $r$.
 The next step is to depict firms’ strategy about selecting their investment time. Ideally, since they had noticed the investors’ beliefs, firms’ will determine their optimal time $t$ based on investors’ beliefs. Then they will compare this $t$ with their benchmark to decide whether they could accept the offer.
 
-</p><h3 id="sources">Sources</h3><p>Bobtcheff, C., &amp; Levy, R. (2017). More Haste, Less Speed? Signaling through Investment Timing. <em>American Economic Journal: Microeconomics, 9</em>(3), 148–186. <a href="http://www.jstor.org/stable/26598494">http://www.jstor.org/stable/26598494</a></p><p>Vrankić, I., &amp; Skoko, P. (2021). The signaling game of a firm with unknown profitability and an investor. <em>Interdisciplinary Description of Complex Systems</em>, 19(3), 437-448. doi: <a href="http://dx.doi.org/10.7906/indecs.19.3.7">http://dx.doi.org/10.7906/indecs.19.3.7</a></p>
+</p><h3 id="sources">Sources</h3><p>Bobtcheff, C., &amp; Levy, R. (2017). More Haste, Less Speed? Signaling through Investment Timing. <em>American Economic Journal: Microeconomics</em>, 9(3), 148–186. <a href="http://www.jstor.org/stable/26598494">http://www.jstor.org/stable/26598494</a></p><p>Vrankić, I., &amp; Skoko, P. (2021). The signaling game of a firm with unknown profitability and an investor. <em>Interdisciplinary Description of Complex Systems</em>, 19(3), 437-448. doi: <a href="http://dx.doi.org/10.7906/indecs.19.3.7">http://dx.doi.org/10.7906/indecs.19.3.7</a></p>
 </div>
 
 <br/>
 
     <div id="prev-next">
         
+        <a class="button" href="/HKU-TDLEG-website/posts-output/2022-01-17-Blog-Post-LIN-Maoran/2022-01-17-Blog-Post-LIN-Maoran/">&laquo; Blog Post-LIN Maoran_20220117</a>
         
-        <a class="right button" href="/HKU-TDLEG-website/posts-output/2021-12-19-Blog-Post-LIN-Maoran/">Blog Post-LIN Maoran_20211219 &raquo;</a>
+        
+        <a class="right button" href="/HKU-TDLEG-website/posts-output/2021-12-19-Blog-Post-LIN-Maoran/2021-12-19-Blog-Post-LIN-Maoran/">Blog Post-LIN Maoran_20211219 &raquo;</a>
         
     </div>
 
