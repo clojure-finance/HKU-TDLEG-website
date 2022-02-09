@@ -7,15 +7,16 @@
     <!-- Website Template designed by www.downloadwebsitetemplates.co.uk -->
     <!-- Modified to fit Cryogen.-->
     <meta charset="UTF-8">
-    <title>HKU-TDLEG: Welcome to HKU-TDLEG website</title>
+    <title>HKU-TDLEG: Blog Post (Twitter)-LIN Maoran_20220102</title>
     
+<meta name="keywords" content="">
 
-<meta name="description" content="This is the home page of HKU-TDLEG, a website keeping track of our contributors&#39; project progress.To access detailed posts, please go to content for posts sorted by authors&#39; name or archives for posts sorted by publishing time.">
+<meta name="description" content="This is the starting point for me to code an economic model using Clojure.It is my first time to use a Java dialect. Therefore, multiple problems happened when I tried to depict some math calculation in the program.">
 
-<meta property="og:description" content="This is the home page of HKU-TDLEG, a website keeping track of our contributors&#39; project progress.To access detailed posts, please go to content for posts sorted by authors&#39; name or archives for posts sorted by publishing time.">
+<meta property="og:description" content="This is the starting point for me to code an economic model using Clojure.It is my first time to use a Java dialect. Therefore, multiple problems happened when I tried to depict some math calculation in the program.">
 
-<meta property="og:url" content="https://clojure-finance.github.io/HKU-TDLEG-website/HKU-TDLEG-website/" />
-<meta property="og:title" content="Welcome to HKU-TDLEG website" />
+<meta property="og:url" content="https://clojure-finance.github.io/HKU-TDLEG-website/HKU-TDLEG-website/posts-output/2022-01-02-Blog-Post-Twitter-LIN-Maoran/2022-01-02-Blog-Post-Twitter-LIN-Maoran/" />
+<meta property="og:title" content="Blog Post (Twitter)-LIN Maoran_20220102" />
 <meta property="og:type" content="article" />
 
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -61,7 +62,7 @@
             <p><span class="fa fa-reorder"></span><strong>Menu</strong></p>
         </div>
         <ul class="menu">
-            <li  class="active" ><a title="Home" href="/HKU-TDLEG-website/">Home</a></li>
+            <li ><a title="Home" href="/HKU-TDLEG-website/">Home</a></li>
             
             
             <li >
@@ -96,17 +97,35 @@
 
 <div id="right" class="clearfix">
     
-<div id="custom-page">
-    <div id="page-header">
-        <h1>Welcome to HKU-TDLEG website</h1>
+<div id="post">
+    <div class="post-header">
+    <div id="post-meta" class="row">
+        <strong>January 2, 2022</strong>
+        
+        <span class="col-lg-6 right">By: LIN Maoran</span>
+        
     </div>
+    <h1>Blog Post (Twitter)-LIN Maoran_20220102</h1>
+</div>
+<div>
     
-    <p>This is the home page of HKU-TDLEG, a website keeping track of our contributors' project progress.</p><p>To access detailed posts, please go to <a href="/HKU-TDLEG-website/pages-output/content">content</a> for posts sorted by authors' name or <a href="/HKU-TDLEG-website/archives">archives</a> for posts sorted by publishing time.</p>
+    <p>This is the starting point for me to code an economic model using Clojure.</p><p>It is my first time to use a Java dialect. Therefore, multiple problems happened when I tried to depict some math calculation in the program.</p><ol><li><p>The first issue is to have natural exponential functions and natural logarithm functions. For Clojure, it does not have a built-in exponential function. So, we could do it ourselves using the “repeat”, which could be found in this <a href="http://kimh.github.io/clojure-by-example/#about">tutorial</a>.</p><p>For natural exp and natural log, we could directly use the Java language “Math/log” and “Math/exp”, which is one of the merits in Clojure!</p></li><li><p>Second, when running the program, the Clojure reported this issue to me multiple times: class java.lang.String cannot be cast to class java.lang.Number.</p><p>It seems that the Clojure have misinterpreted the data type I would like to input. Therefore, I need to directly define the types of my inputs, which was found in a <a href="https://clojuredocs.org/clojure.core/double">community Clojure Docs</a>.</p><p>We could use the function (double x) or (int x) to coerce the data into numbers we want. If it does not work, we could even use the Java languages (Double/parseDouble x) or (Integer/parseInt x)!</p></li></ol><p>After resolving these issues, I could continue with my depiction. Definitely, the upcoming problems will be much more difficult than the aforementioned issues. Hence, I will try my best to enrich my knowledge to smooth my workflow.</p>
+</div>
+
+<br/>
 
     <div id="prev-next">
         
+        <a class="button" href="/HKU-TDLEG-website/posts-output/2022-01-06-Blog-Post-Oscar-Jey-LEW/2022-01-06-Blog-Post-Oscar-Jey-LEW/">&laquo; Blog Post-Oscar Jey LEW_20220106</a>
+        
+        
+        <a class="right button" href="/HKU-TDLEG-website/posts-output/2022-01-02-Blog-Post-LIN-Maoran/2022-01-02-Blog-Post-LIN-Maoran/">Blog Post-LIN Maoran_20220102 &raquo;</a>
         
     </div>
+
+    
+
+
 </div>
 
 <hr/>

@@ -79,9 +79,13 @@
 
     <div id="socialmedia" class="clearfix">
         <ul>
-            <li><a title="HKU-TDLEG-backtesting-strategies-clojure" href="https://github.com/clojure-finance/HKU-TDLEG-backtesting-strategies-clojure" rel="external"><span class="fa fa-github"></span></a></li>
-            <li><a title="HKU-TDLEG-VOLACK" href="https://github.com/clojure-finance/HKU-TDLEG-VOLACK" rel="external"><span class="fa fa-github"></span></a></li>
-            <li><a title="HKU-TDLEG-financial-signaling-game" href="https://github.com/clojure-finance/HKU-TDLEG-financial-signaling-game" rel="external"><span class="fa fa-github"></span></a></li>
+            <li>
+                <a title="GitHub" href="https://github.com/clojure-finance" rel="external">
+                    <span class="fa fa-github">
+                        <span style="font-family: 'Montserrat';text-transform: uppercase;">&nbsp;Github</span>
+                    </span>
+                </a>
+            </li>
             <!--<li><a title="Stack Overflow" href="./" rel="external"><span class="fa fa-stack-overflow"></span></a></li>-->
             <!--<li><a title="Google+" href="./" rel="external"><span class="fa fa-google-plus"></span></a></li>-->
             <!--<li><a title="LinkedIn" href="./" rel="external"><span class="fa fa-linkedin"></span></a></li>-->
@@ -117,7 +121,7 @@
     "the beliefs of firms at t about a successfully investment"
     [t lamag]
 (/ po (possible t lamag)))
-</code></pre><p><strong>2. However, under asymmetrical information, the investors’ belief about the projects’ success rate should merely be determined by their beliefs $p$ about the firms’ quality in market.</strong></p><p>For investors, their expectation for firms to observe a successful investment project in their experiments would be:</p><p><span x="">$$ \tilde</span>(\lambda, t)=p \ast x(\lambda_l, t)+(1-p) \ast x(\lambda_h, t) $$</p><p>Then, the investors beliefs about the probability of a successful investment would be:</p><p><span p="">$$ \tilde</span><span p_0=""> (t) = \frac</span><span x="">{\tilde</span> (\lambda, t)} $$</p><p>However, the firms’ beliefs would still be:</p><p>$$x(\lambda, t)=p_0+(1-p_0)e^{-\lambda t}$$</p><p>In Clojure, the investors’ beliefs under asymmetrical information could be denoted as:</p><p>;;lamago is the low-type firm’s quality $\lambda_h$, while lamagi is the high-type firm’s quality $\lambda_l$.</p><pre><code>(def lamago 0.8)
+</code></pre><p><strong>2. However, under asymmetrical information, the investors’ belief about the projects’ success rate should merely be determined by their beliefs $p$ about the firms’ quality in market.</strong></p><p>For investors, their expectation for firms to observe a successful investment project in their experiments would be:</p><p><span x="">$$ \tilde</span> (\lambda, t)=p \ast x(\lambda_l, t)+(1-p) \ast x(\lambda_h, t) $$</p><p>Then, the investors beliefs about the probability of a successful investment would be:</p><p><span p="">$$ \tilde</span><span p_0=""> (t) = \frac</span><span x="">{\tilde</span> (\lambda, t)} $$</p><p>However, the firms’ beliefs would still be:</p><p>$$x(\lambda, t)=p_0+(1-p_0)e^{-\lambda t}$$</p><p>In Clojure, the investors’ beliefs under asymmetrical information could be denoted as:</p><p>;;lamago is the low-type firm’s quality $\lambda_h$, while lamagi is the high-type firm’s quality $\lambda_l$.</p><pre><code>(def lamago 0.8)
 (def lamagi 0.3)
 (defn exppossible
     "The investors expected beliefs about observing a successful investment project."
@@ -138,7 +142,7 @@ The next step is to depict firms’ strategy about selecting their investment ti
 
     <div id="prev-next">
         
-        <a class="button" href="/HKU-TDLEG-website/posts-output/2022-01-17-Blog-Post-LIN-Maoran/2022-01-17-Blog-Post-LIN-Maoran/">&laquo; Blog Post-LIN Maoran_20220117</a>
+        <a class="button" href="/HKU-TDLEG-website/posts-output/2022-01-02-Blog-Post-Twitter-LIN-Maoran/2022-01-02-Blog-Post-Twitter-LIN-Maoran/">&laquo; Blog Post (Twitter)-LIN Maoran_20220102</a>
         
         
         <a class="right button" href="/HKU-TDLEG-website/posts-output/2021-12-19-Blog-Post-LIN-Maoran/2021-12-19-Blog-Post-LIN-Maoran/">Blog Post-LIN Maoran_20211219 &raquo;</a>
