@@ -36,7 +36,7 @@ In Clojure, the beliefs under symmetrical information could be denoted as:
 
 For investors, their expectation for firms to observe a successful investment project in their experiments would be:
 
-$$ \tilde{x}(\lambda, t)=p \ast x(\lambda_l, t)+(1-p) \ast x(\lambda_h, t) $$
+$$ \tilde{x} (\lambda, t)=p \ast x(\lambda_l, t)+(1-p) \ast x(\lambda_h, t) $$
 
 Then, the investors beliefs about the probability of a successful investment would be:
 
