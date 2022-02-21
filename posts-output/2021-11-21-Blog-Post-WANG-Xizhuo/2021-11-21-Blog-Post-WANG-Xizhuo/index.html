@@ -41,16 +41,21 @@ enough. Therefore, I will explore more sources the learn the language.">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/tomorrow-night-eighties.min.css">
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <!--To show Markdown formula-->
-    <script>
-        window.MathJax = {
-        tex: {
-          tags: 'ams', /* Enable automatic numbering */
-          inlineMath: [['$', '$'], ['\\(', '\\)']]
-        },
-      };
+    <!--$ is for inline elements, $$ is for block elements -->
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          extensions: ["tex2jax.js"],
+          jax: ["input/TeX", "output/HTML-CSS"],
+          tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true
+          },
+          "HTML-CSS": { availableFonts: ["TeX"] }
+        });
     </script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-chtml.js"></script>
+    <!--load newest MathJax file-->
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 </head>
 <body>
 
@@ -106,7 +111,7 @@ enough. Therefore, I will explore more sources the learn the language.">
 <div id="post">
     <div class="post-header">
     <div id="post-meta" class="row">
-        <strong>November 21, 2021</strong>
+        <strong>2021年11月21日</strong>
         
         <span class="col-lg-6 right">By: WANG Xizhuo</span>
         
@@ -126,14 +131,14 @@ are feasible.</p></li></ul><h2 id="heading-for-the-next-stage">Heading for the n
 
 <br/>
 
-    <div id="prev-next">
+    <!--<div id="prev-next">
         
         <a class="button" href="/HKU-TDLEG-website/posts-output/2021-12-19-Blog-Post-LIN-Maoran/2021-12-19-Blog-Post-LIN-Maoran/">&laquo; Blog Post-LIN Maoran_20211219</a>
         
         
         <a class="right button" href="/HKU-TDLEG-website/posts-output/2021-11-21-Blog-Post-LIN-Maoran/2021-11-21-Blog-Post-LIN-Maoran/">Blog Post-LIN Maoran_20211121 &raquo;</a>
         
-    </div>
+    </div>-->
 
     
 

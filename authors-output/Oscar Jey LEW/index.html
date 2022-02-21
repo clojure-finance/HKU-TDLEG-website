@@ -28,16 +28,21 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/tomorrow-night-eighties.min.css">
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <!--To show Markdown formula-->
-    <script>
-        window.MathJax = {
-        tex: {
-          tags: 'ams', /* Enable automatic numbering */
-          inlineMath: [['$', '$'], ['\\(', '\\)']]
-        },
-      };
+    <!--$ is for inline elements, $$ is for block elements -->
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          extensions: ["tex2jax.js"],
+          jax: ["input/TeX", "output/HTML-CSS"],
+          tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true
+          },
+          "HTML-CSS": { availableFonts: ["TeX"] }
+        });
     </script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-chtml.js"></script>
+    <!--load newest MathJax file-->
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 </head>
 <body>
 
@@ -95,11 +100,11 @@
         <h1>Posts by Oscar Jey LEW</h1>
     </div>
     
-    <h4>2022 January</h4>
+    <h4>2022 一月</h4>
     <ul>
         
         <li>
-            Jan 06 - <a href="/HKU-TDLEG-website/posts-output/2022-01-06-Blog-Post-Oscar-Jey-LEW/2022-01-06-Blog-Post-Oscar-Jey-LEW/">Blog Post-Oscar Jey LEW_20220106</a>
+            1月 06 - <a href="/HKU-TDLEG-website/posts-output/2022-01-06-Blog-Post-Oscar-Jey-LEW/2022-01-06-Blog-Post-Oscar-Jey-LEW/">Blog Post-Oscar Jey LEW_20220106</a>
         </li>
         
     </ul>
