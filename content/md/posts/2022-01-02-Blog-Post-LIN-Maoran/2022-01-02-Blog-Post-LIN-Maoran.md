@@ -1,4 +1,4 @@
-{:title  "Blog Post-LIN Maoran_20220102"
+{:title  "How to Incorporate Time-Series Variable in my Signaling Model"
  :layout :post
  :author "LIN Maoran"}
 

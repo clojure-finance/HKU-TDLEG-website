@@ -1,4 +1,4 @@
-{:title  "Blog Post-LIN Maoran_20220130"
+{:title  "Empirical Analysis: Some Ideas about Basic Data Manipulation and Usage of Machine Learning"
  :layout :post
  :author "LIN Maoran"}
 

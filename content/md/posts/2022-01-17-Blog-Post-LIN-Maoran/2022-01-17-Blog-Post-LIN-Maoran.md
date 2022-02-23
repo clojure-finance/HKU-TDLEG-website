@@ -1,4 +1,4 @@
-{:title  "Blog Post-LIN Maoran_20220117"
+{:title  "Concessions and Test Run of Game Model"
  :layout :post
  :author "LIN Maoran"}
 

@@ -1,4 +1,4 @@
-{:title  "Blog Post-LIN Maoran_20211219"
+{:title  "Initial Ideas about the Signaling Game Model for Clojuring"
  :layout :post
  :author "LIN Maoran"}
 

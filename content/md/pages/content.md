@@ -6,12 +6,12 @@
 This page shows a full list of posts from contributors.
 
 **LIN Maoran**<br/>
-[Blog Post-LIN Maoran_20211121](/posts-output/2021-11-21-Blog-Post-LIN-Maoran/2021-11-21-Blog-Post-LIN-Maoran)<br/>
-[Blog Post-LIN Maoran_20211219](/posts-output/2021-12-19-Blog-Post-LIN-Maoran/2021-12-19-Blog-Post-LIN-Maoran)<br/>
-[Blog Post-LIN Maoran_20220102](/posts-output/2022-01-02-Blog-Post-LIN-Maoran/2022-01-02-Blog-Post-LIN-Maoran)<br/>
+[Some Initiatives about my Project](/posts-output/2021-11-21-Blog-Post-LIN-Maoran/2021-11-21-Blog-Post-LIN-Maoran)<br/>
+[Initial Ideas about the Signaling Game Model for Clojuring](/posts-output/2021-12-19-Blog-Post-LIN-Maoran/2021-12-19-Blog-Post-LIN-Maoran)<br/>
+[How to Incorporate Time-Series Variable in my Signaling Model](/posts-output/2022-01-02-Blog-Post-LIN-Maoran/2022-01-02-Blog-Post-LIN-Maoran)<br/>
 [Blog Post (Twitter)-LIN Maoran_20220102](/posts-output/2022-01-02-Blog-Post-Twitter-LIN-Maoran/2022-01-02-Blog-Post-Twitter-LIN-Maoran)<br/>
-[Blog Post-LIN Maoran_20220117](/posts-output/2022-01-17-Blog-Post-LIN-Maoran/2022-01-17-Blog-Post-LIN-Maoran)<br/>
-[Blog Post-LIN Maoran_20220130](/posts-output/2022-01-30-Blog-Post-LIN-Maoran/2022-01-30-Blog-Post-LIN-Maoran)<br/>
+[Concessions and Test Run of Game Model](/posts-output/2022-01-17-Blog-Post-LIN-Maoran/2022-01-17-Blog-Post-LIN-Maoran)<br/>
+[Empirical Analysis: Some Ideas about Basic Data Manipulation and Usage of Machine Learning](/posts-output/2022-01-30-Blog-Post-LIN-Maoran/2022-01-30-Blog-Post-LIN-Maoran)<br/>
 [Blog Post (Twitter)-LIN Maoran_20220130](/posts-output/2022-01-30-Blog-Post-Twitter-LIN-Maoran/2022-01-30-Blog-Post-Twitter-LIN-Maoran)<br/>
 
 **Oscar Jay LEW**<br/>
