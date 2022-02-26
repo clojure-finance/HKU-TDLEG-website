@@ -7,16 +7,16 @@
     <!-- Website Template designed by www.downloadwebsitetemplates.co.uk -->
     <!-- Modified to fit Cryogen.-->
     <meta charset="UTF-8">
-    <title>HKU-TDLEG: Data Science in Finance - Second Blog</title>
+    <title>HKU-TDLEG: Blog Post-CHOI Chong Hing_20220129</title>
     
 <meta name="keywords" content="">
 
-<meta name="description" content="Work I have done these daysManaging the option datasetThe option dataset downloaded from the WRDS website is different from the CRSP dataset used in the backtesting library. Hence, some work is needed to make the dataset standard like formatting.Settling the selection rules for option tradingThe initial rule for filtering options is to select the options with the top five largest trading volume on a given day. Their position delta is calculated by linear combination. Then the quantity to trade is setted to make the whole position delta neutral.Learning ClojureDuring the coding process, I also learned Clojure and got a deeper understanding about the data structures, especially the immutable sequences. Due to this property, we need to use swap and reset to change value.">
+<meta name="description" content="The implementation of the DSL query foundation went well. The biggest problem I have encountered was the group by operation. This is mainly due to the difference in the output results of the generic query and the tech.ml.dataset. The group by function in tech.ml.dataset outputs a map with the column values (or indices) to the corresponding datatable; while our query would be outputting a single datatable, similar to SQL query. The library also does not support multiple column group-by operation.To solve the difference in output, a table join between the first item in group-by datatable and the descriptive table is made. This combines all the aggregated columns and the original columns, forming a table with all columns.">
 
-<meta property="og:description" content="Work I have done these daysManaging the option datasetThe option dataset downloaded from the WRDS website is different from the CRSP dataset used in the backtesting library. Hence, some work is needed to make the dataset standard like formatting.Settling the selection rules for option tradingThe initial rule for filtering options is to select the options with the top five largest trading volume on a given day. Their position delta is calculated by linear combination. Then the quantity to trade is setted to make the whole position delta neutral.Learning ClojureDuring the coding process, I also learned Clojure and got a deeper understanding about the data structures, especially the immutable sequences. Due to this property, we need to use swap and reset to change value.">
+<meta property="og:description" content="The implementation of the DSL query foundation went well. The biggest problem I have encountered was the group by operation. This is mainly due to the difference in the output results of the generic query and the tech.ml.dataset. The group by function in tech.ml.dataset outputs a map with the column values (or indices) to the corresponding datatable; while our query would be outputting a single datatable, similar to SQL query. The library also does not support multiple column group-by operation.To solve the difference in output, a table join between the first item in group-by datatable and the descriptive table is made. This combines all the aggregated columns and the original columns, forming a table with all columns.">
 
-<meta property="og:url" content="https://clojure-finance.github.io/HKU-TDLEG-website/HKU-TDLEG-website/posts-output/2022-01-17-Blog-Post-WANG-Xizhuo/2022-01-17-Blog-Post-WANG-Xizhuo/" />
-<meta property="og:title" content="Data Science in Finance - Second Blog" />
+<meta property="og:url" content="https://clojure-finance.github.io/HKU-TDLEG-website/HKU-TDLEG-website/posts-output/2022-01-29-Blog-Post-CHOI-Chong-Hing/2022-01-29-Blog-Post-CHOI-Chong-Hing/" />
+<meta property="og:title" content="Blog Post-CHOI Chong Hing_20220129" />
 <meta property="og:type" content="article" />
 
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -105,26 +105,26 @@
 <div id="post">
     <div class="post-header">
     <div id="post-meta" class="row">
-        <strong>January 17, 2022</strong>
+        <strong>January 29, 2022</strong>
         
-        <span class="col-lg-6 right">By: WANG Xizhuo</span>
+        <span class="col-lg-6 right">By: CHOI Chong Hing</span>
         
     </div>
-    <h1>Data Science in Finance - Second Blog</h1>
+    <h1>Blog Post-CHOI Chong Hing_20220129</h1>
 </div>
 <div>
     
-    <h2 id="work-i-have-done-these-days">Work I have done these days</h2><ul><li><p>Managing the option dataset</p><p>The option dataset downloaded from the WRDS website is different from the CRSP dataset used in the backtesting library. Hence, some work is needed to make the dataset standard like formatting.</p></li><li><p>Settling the selection rules for option trading</p><p>The initial rule for filtering options is to select the options with the top five largest trading volume on a given day. Their position delta is calculated by linear combination. Then the quantity to trade is setted to make the whole position delta neutral.</p></li><li><p>Learning Clojure</p><p>During the coding process, I also learned Clojure and got a deeper understanding about the data structures, especially the immutable sequences. Due to this property, we need to use <code>swap</code> and <code>reset</code> to change value.</p></li></ul><h2 id="difficulties-i-encountered">Difficulties I encountered</h2><ul><li><p>Maintain options</p><p>Although I have walked through the <code>maintain-tics</code> function in the backtesting library, I still had no idea about how to maintain the options becuause the option dataset is different from the CRSP dataset. There are various options on the same day, not like the CRSP where there is only one ticker but on consecutive days. To solve this problem, I am thinking about maintaining another dataset for the available options and also another portfolio only for options. By combining the options with the stock and cash portfolio, we can generate the whole position value.</p></li><li><p>Automate trading</p><p>Since the dataset is different, the ways to iterate to the next date may also vary. I am trying to figure out a way to iterate to the next date in the option dataset.</p></li></ul><h2 id="heading-for-the-next-stage">Heading for the next stage</h2><ul><li><p>Execute automated trading</p><p>I will try to bring the idea of maintaining options into practice and write some codes to automate trading.</p></li><li><p>Optimizing delta</p><p>As the topic of my research, I will adjust the calculation of delta and try to optimize delta hedging.</p></li></ul>
+    <p>The implementation of the DSL query foundation went well. The biggest problem I have encountered was the group by operation. This is mainly due to the difference in the output results of the generic query and the tech.ml.dataset. The group by function in tech.ml.dataset outputs a map with the column values (or indices) to the corresponding datatable; while our query would be outputting a single datatable, similar to SQL query. The library also does not support multiple column group-by operation.</p><p>To solve the difference in output, a table join between the first item in group-by datatable and the descriptive table is made. This combines all the aggregated columns and the original columns, forming a table with all columns.</p><p>To solve the multiple column group-by problem, an aggregation of the group by columns is made. A single group-by operation is made to the aggregated column. This column, although remains in the table, will be filtered out in the later step in the operation.</p>
 </div>
 
 <br/>
 
     <!--<div id="prev-next">
         
-        <a class="button" href="/HKU-TDLEG-website/posts-output/2022-01-29-Blog-Post-CHOI-Chong-Hing/2022-01-29-Blog-Post-CHOI-Chong-Hing/">&laquo; Blog Post-CHOI Chong Hing_20220129</a>
+        <a class="button" href="/HKU-TDLEG-website/posts-output/2022-01-30-Blog-Post-LIN-Maoran/2022-01-30-Blog-Post-LIN-Maoran/">&laquo; Empirical Analysis: Some Ideas about Basic Data Manipulation and Usage of Machine Learning</a>
         
         
-        <a class="right button" href="/HKU-TDLEG-website/posts-output/2022-01-17-Blog-Post-LIN-Maoran/2022-01-17-Blog-Post-LIN-Maoran/">Concessions and Test Run of Game Model &raquo;</a>
+        <a class="right button" href="/HKU-TDLEG-website/posts-output/2022-01-17-Blog-Post-WANG-Xizhuo/2022-01-17-Blog-Post-WANG-Xizhuo/">Data Science in Finance - Second Blog &raquo;</a>
         
     </div>-->
 
