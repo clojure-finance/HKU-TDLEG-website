@@ -1,4 +1,4 @@
-{:title  "Blog Post (Twitter)-LIN Maoran_20220102"
+{:title  "The Starting Point of Coding with Clojure"
  :layout :post
  :author "LIN Maoran"}
 

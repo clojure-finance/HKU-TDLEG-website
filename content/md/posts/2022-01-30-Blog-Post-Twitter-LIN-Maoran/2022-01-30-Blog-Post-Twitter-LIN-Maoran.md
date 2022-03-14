@@ -1,4 +1,4 @@
-{:title  "Blog Post (Twitter)-LIN Maoran_20220130"
+{:title  "Ideas about Data Processing and Getting Regression Statistics"
  :layout :post
  :author "LIN Maoran"}
 

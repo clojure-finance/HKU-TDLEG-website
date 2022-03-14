@@ -13,10 +13,10 @@ This page shows a full list of posts from contributors.
 [Some Initiatives about my Project](/posts-output/2021-11-21-Blog-Post-LIN-Maoran/2021-11-21-Blog-Post-LIN-Maoran)<br/>
 [Initial Ideas about the Signaling Game Model for Clojuring](/posts-output/2021-12-19-Blog-Post-LIN-Maoran/2021-12-19-Blog-Post-LIN-Maoran)<br/>
 [How to Incorporate Time-Series Variable in my Signaling Model](/posts-output/2022-01-02-Blog-Post-LIN-Maoran/2022-01-02-Blog-Post-LIN-Maoran)<br/>
-[Blog Post (Twitter)-LIN Maoran_20220102](/posts-output/2022-01-02-Blog-Post-Twitter-LIN-Maoran/2022-01-02-Blog-Post-Twitter-LIN-Maoran)<br/>
+[The Starting Point of Coding with Clojure](/posts-output/2022-01-02-Blog-Post-Twitter-LIN-Maoran/2022-01-02-Blog-Post-Twitter-LIN-Maoran)<br/>
 [Concessions and Test Run of Game Model](/posts-output/2022-01-17-Blog-Post-LIN-Maoran/2022-01-17-Blog-Post-LIN-Maoran)<br/>
 [Empirical Analysis: Some Ideas about Basic Data Manipulation and Usage of Machine Learning](/posts-output/2022-01-30-Blog-Post-LIN-Maoran/2022-01-30-Blog-Post-LIN-Maoran)<br/>
-[Blog Post (Twitter)-LIN Maoran_20220130](/posts-output/2022-01-30-Blog-Post-Twitter-LIN-Maoran/2022-01-30-Blog-Post-Twitter-LIN-Maoran)<br/>
+[Ideas about Data Processing and Getting Regression Statistics](/posts-output/2022-01-30-Blog-Post-Twitter-LIN-Maoran/2022-01-30-Blog-Post-Twitter-LIN-Maoran)<br/>
 
 **Oscar Jay LEW**<br/>
 [Blog Post-Oscar Jey LEW_20220106](/posts-output/2022-01-06-Blog-Post-Oscar-Jey-LEW/2022-01-06-Blog-Post-Oscar-Jey-LEW)<br/>
