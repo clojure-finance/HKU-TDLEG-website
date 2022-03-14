@@ -7,16 +7,15 @@
     <!-- Website Template designed by www.downloadwebsitetemplates.co.uk -->
     <!-- Modified to fit Cryogen.-->
     <meta charset="UTF-8">
-    <title>HKU-TDLEG: Ideas about Data Processing and Getting Regression Statistics</title>
+    <title>HKU-TDLEG: Delta hedging with Clojure backtesting library</title>
     
-<meta name="keywords" content="">
 
-<meta name="description" content="Some tricks of using Clojure in dataset manipulation and regression test.To manipulate a dataset with numerous variables and values, we could use some tricks by referring to the library tech.ml.dataset and Incanter.">
+<meta name="description" content="Contributor: WANG XizhuoData Science in Finance - First BlogData Science in Finance - Second BlogData Science in Finance - Third Blog">
 
-<meta property="og:description" content="Some tricks of using Clojure in dataset manipulation and regression test.To manipulate a dataset with numerous variables and values, we could use some tricks by referring to the library tech.ml.dataset and Incanter.">
+<meta property="og:description" content="Contributor: WANG XizhuoData Science in Finance - First BlogData Science in Finance - Second BlogData Science in Finance - Third Blog">
 
-<meta property="og:url" content="https://clojure-finance.github.io/HKU-TDLEG-website/HKU-TDLEG-website/posts-output/2022-01-30-Blog-Post-Twitter-LIN-Maoran/2022-01-30-Blog-Post-Twitter-LIN-Maoran/" />
-<meta property="og:title" content="Ideas about Data Processing and Getting Regression Statistics" />
+<meta property="og:url" content="https://clojure-finance.github.io/HKU-TDLEG-website/HKU-TDLEG-website/pages-output/WANG-Xizhuo/" />
+<meta property="og:title" content="Delta hedging with Clojure backtesting library" />
 <meta property="og:type" content="article" />
 
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -102,42 +101,21 @@
 
 <div id="right" class="clearfix">
     
-<div id="post">
-    <div class="post-header">
-    <div id="post-meta" class="row">
-        <strong>January 30, 2022</strong>
-        
-        <span class="col-lg-6 right">By: LIN Maoran</span>
-        
+<div id="custom-page">
+    <div id="page-header">
+        <h1>Delta hedging with Clojure backtesting library</h1>
     </div>
-    <h1>Ideas about Data Processing and Getting Regression Statistics</h1>
-</div>
-<div>
     
-    <p>Some tricks of using Clojure in dataset manipulation and regression test.</p><p>To manipulate a dataset with numerous variables and values, we could use some tricks by referring to the library tech.ml.dataset and Incanter.</p><ol><li><p>We could not guarantee that all inputs in our dataset could be fully completed with no missing values. Therefore, I could try the built-in function “drop-missing” to remove the rows with missing data.</p><pre><code>(-&gt; (ds/-&gt;dataset "resources/China-data.csv") (ds/drop-missing))
-</code></pre></li><li><p>There are some control variables containing multiple categories. We could use the function “categorical-&gt;number” to translate them to values. If the categories are simply enough, we could also use the “categorical-&gt;one-hot” to resolve this problem.</p><pre><code>(-&gt; (ds/-&gt;dataset "resources/regression-data.csv" {:key-fn keyword}) (ds/categorical-&gt;number [:Investment_Stage]))
-</code></pre></li><li><p>We could use the regression function to have a linear-regression test for our data.</p><ul><li><p>The regression could be done on a matrix, therefore. By doing this, we could select multiple columns in dataset as independent variables:</p><pre><code>(def reg-data (to-matrix (read-dataset "resources/regression-data.csv")))
-(def num-investor (sel reg-data :cols 4))
-(def x (sel reg-data :cols '(0 1 2 5 6 7 8)))
-</code></pre></li><li><p>Before the regression, we could firstly use Incanter to derive a correlation-matrix and have a preliminary judgement:</p><pre><code>(correlation reg-data)
-</code></pre></li><li><p>When doing the regression, we could use the “linear-model” function in incanter, which will return us a map with multiple statistical details such as t-test, p-value, r-square etc. We can use “keys” function to see what is contained in that dataset:</p><pre><code>(keys (linear-model num-investor x))
-</code></pre></li><li><p>To make it looks more reader-friendly, we could also transfer it to a dataset by tech.ml.dataset.</p></li></ul></li></ol>
-</div>
-
-<br/>
+    <p>Contributor: WANG Xizhuo</p><p><a href="/HKU-TDLEG-website/posts-output/2021-11-21-Blog-Post-WANG-Xizhuo/2021-11-21-Blog-Post-WANG-Xizhuo">Data Science in Finance - First Blog</a><br /><a href="/HKU-TDLEG-website/posts-output/2022-01-17-Blog-Post-WANG-Xizhuo/2022-01-17-Blog-Post-WANG-Xizhuo">Data Science in Finance - Second Blog</a><br /><a href="/HKU-TDLEG-website/posts-output/2022-02-09-Blog-Post-WANG-Xizhuo/2022-02-09-Blog-Post-WANG-Xizhuo">Data Science in Finance - Third Blog</a><br /></p>
 
     <!--<div id="prev-next">
         
-        <a class="button" href="/HKU-TDLEG-website/posts-output/2022-02-09-Blog-Post-WANG-Xizhuo/2022-02-09-Blog-Post-WANG-Xizhuo/">&laquo; Data Science in Finance - Third Blog</a>
+        <a class="button" href="/HKU-TDLEG-website/pages-output/LIN-Maoran/">&laquo; Exploring the Signaling Effect of Equity Offering in Venture Capital Investment</a>
         
         
-        <a class="right button" href="/HKU-TDLEG-website/posts-output/2022-01-30-Blog-Post-LIN-Maoran/2022-01-30-Blog-Post-LIN-Maoran/">Empirical Analysis: Some Ideas about Basic Data Manipulation and Usage of Machine Learning &raquo;</a>
+        <a class="right button" href="/HKU-TDLEG-website/pages-output/ZHONG-Yanting/">Clojure Heap &raquo;</a>
         
     </div>-->
-
-    
-
-
 </div>
 
 <hr/>
