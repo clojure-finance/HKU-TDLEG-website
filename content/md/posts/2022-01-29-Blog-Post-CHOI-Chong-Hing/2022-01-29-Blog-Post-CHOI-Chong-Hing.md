@@ -1,4 +1,4 @@
-{:title  "Blog Post-CHOI Chong Hing_20220129"
+{:title  "Implementation of Query Foundation"
  :layout :post
  :author "CHOI Chong Hing"}
 

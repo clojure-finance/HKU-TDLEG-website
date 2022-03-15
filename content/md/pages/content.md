@@ -6,8 +6,9 @@
 This page shows a full list of posts from contributors.
 
 **CHOI Chong Hing**<br/>
-[Blog Post-CHOI Chong Hing_20220129](/posts-output/2022-01-29-Blog-Post-CHOI-Chong-Hing/2022-01-29-Blog-Post-CHOI-Chong-Hing)<br/>
-[Blog Post-CHOI Chong Hing_20220226](/posts-output/2022-02-26-Blog-Post-CHOI-Chong-Hing/2022-02-26-Blog-Post-CHOI-Chong-Hing)<br/>
+[Implementation of Query Foundation](/posts-output/2022-01-29-Blog-Post-CHOI-Chong-Hing/2022-01-29-Blog-Post-CHOI-Chong-Hing)<br/>
+[Syntax Design](/posts-output/2022-02-26-Blog-Post-CHOI-Chong-Hing/2022-02-26-Blog-Post-CHOI-Chong-Hing)<br/>
+[Sort-by Function Implementation](/posts-output/2022-03-12-Blog-Post-CHOI-Chong-Hing/2022-03-12-Blog-Post-CHOI-Chong-Hing)<br/>
 
 **LIN Maoran**<br/>
 [Some Initiatives about my Project](/posts-output/2021-11-21-Blog-Post-LIN-Maoran/2021-11-21-Blog-Post-LIN-Maoran)<br/>
@@ -28,3 +29,6 @@ This page shows a full list of posts from contributors.
 
 **ZHONG Yanting**<br/>
 [First Blog - Grace Zhong](/posts-output/2022-02-24-Blog-Post-ZHONG-Yanting/2022-02-24-Blog-Post-ZHONG-Yanting)<br/>
+
+**ZHU Jiarui**<br/>
+[clojure methods for OOP development](/posts-output/2022-03-14-Blog-Post-ZHU-Jiarui/2022-03-14-Blog-Post-ZHU-Jiarui)<br/>

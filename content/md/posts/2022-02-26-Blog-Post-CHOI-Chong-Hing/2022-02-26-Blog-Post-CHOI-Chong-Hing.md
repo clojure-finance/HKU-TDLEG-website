@@ -1,4 +1,4 @@
-{:title  "Blog Post-CHOI Chong Hing_20220226"
+{:title  "Syntax Design"
  :layout :post
  :author "CHOI Chong Hing"}
 
@@ -51,4 +51,6 @@ These three parts would largely determine the final syntax of the DSL. A few ver
 <u>The Final Design</u><br/>
     Here shows the final design for the DSL syntax:
 
-    dt-get DT '[[col1 filtering_function1] [agg_keyword col2 filtering_function2] & col1 agg_keyword col2 & col3 col4]
+```clojure
+dt-get DT '[[col1 filtering_function1] [agg_keyword col2 filtering_function2] & col1 agg_keyword col2 & col3 col4]
+```
