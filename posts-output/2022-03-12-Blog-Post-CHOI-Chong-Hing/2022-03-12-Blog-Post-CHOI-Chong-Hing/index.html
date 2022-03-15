@@ -7,15 +7,16 @@
     <!-- Website Template designed by www.downloadwebsitetemplates.co.uk -->
     <!-- Modified to fit Cryogen.-->
     <meta charset="UTF-8">
-    <title>HKU-TDLEG: Content</title>
+    <title>HKU-TDLEG: Sort-by Function Implementation</title>
     
+<meta name="keywords" content="">
 
-<meta name="description" content="This page shows a full list of posts from contributors.CHOI Chong HingImplementation of Query FoundationSyntax DesignSort-by Function Implementation">
+<meta name="description" content="With the basic foundation and design implemented, we try to add more query options. One of the common options is the sort-by function.To implement the sort-by option, the query foundation is updated. For the syntax design, the third section has been changed to option section, including group-by, sort-by and future options. However, for the query to differentiate different options, keywords for different options are included. The sort-by syntax is as follows:">
 
-<meta property="og:description" content="This page shows a full list of posts from contributors.CHOI Chong HingImplementation of Query FoundationSyntax DesignSort-by Function Implementation">
+<meta property="og:description" content="With the basic foundation and design implemented, we try to add more query options. One of the common options is the sort-by function.To implement the sort-by option, the query foundation is updated. For the syntax design, the third section has been changed to option section, including group-by, sort-by and future options. However, for the query to differentiate different options, keywords for different options are included. The sort-by syntax is as follows:">
 
-<meta property="og:url" content="https://clojure-finance.github.io/HKU-TDLEG-website/HKU-TDLEG-website/pages-output/content/" />
-<meta property="og:title" content="Content" />
+<meta property="og:url" content="https://clojure-finance.github.io/HKU-TDLEG-website/HKU-TDLEG-website/posts-output/2022-03-12-Blog-Post-CHOI-Chong-Hing/2022-03-12-Blog-Post-CHOI-Chong-Hing/" />
+<meta property="og:title" content="Sort-by Function Implementation" />
 <meta property="og:type" content="article" />
 
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -73,7 +74,7 @@
                 <a href="/HKU-TDLEG-website/pages-output/about/">About</a>
             </li>
             
-            <li  class="active" >
+            <li >
                 <a href="/HKU-TDLEG-website/pages-output/content/">Content</a>
             </li>
             
@@ -101,19 +102,42 @@
 
 <div id="right" class="clearfix">
     
-<div id="custom-page">
-    <div id="page-header">
-        <h1>Content</h1>
+<div id="post">
+    <div class="post-header">
+    <div id="post-meta" class="row">
+        <strong>March 12, 2022</strong>
+        
+        <span class="col-lg-6 right">By: CHOI Chong Hing</span>
+        
     </div>
+    <h1>Sort-by Function Implementation</h1>
+</div>
+<div>
     
-    <p>This page shows a full list of posts from contributors.</p><p><strong>CHOI Chong Hing</strong><br /><a href="/HKU-TDLEG-website/posts-output/2022-01-29-Blog-Post-CHOI-Chong-Hing/2022-01-29-Blog-Post-CHOI-Chong-Hing">Implementation of Query Foundation</a><br /><a href="/HKU-TDLEG-website/posts-output/2022-02-26-Blog-Post-CHOI-Chong-Hing/2022-02-26-Blog-Post-CHOI-Chong-Hing">Syntax Design</a><br /><a href="/HKU-TDLEG-website/posts-output/2022-03-12-Blog-Post-CHOI-Chong-Hing/2022-03-12-Blog-Post-CHOI-Chong-Hing">Sort-by Function Implementation</a><br /></p><p><strong>LIN Maoran</strong><br /><a href="/HKU-TDLEG-website/posts-output/2021-11-21-Blog-Post-LIN-Maoran/2021-11-21-Blog-Post-LIN-Maoran">Some Initiatives about my Project</a><br /><a href="/HKU-TDLEG-website/posts-output/2021-12-19-Blog-Post-LIN-Maoran/2021-12-19-Blog-Post-LIN-Maoran">Initial Ideas about the Signaling Game Model for Clojuring</a><br /><a href="/HKU-TDLEG-website/posts-output/2022-01-02-Blog-Post-LIN-Maoran/2022-01-02-Blog-Post-LIN-Maoran">How to Incorporate Time-Series Variable in my Signaling Model</a><br /><a href="/HKU-TDLEG-website/posts-output/2022-01-02-Blog-Post-Twitter-LIN-Maoran/2022-01-02-Blog-Post-Twitter-LIN-Maoran">The Starting Point of Coding with Clojure</a><br /><a href="/HKU-TDLEG-website/posts-output/2022-01-17-Blog-Post-LIN-Maoran/2022-01-17-Blog-Post-LIN-Maoran">Concessions and Test Run of Game Model</a><br /><a href="/HKU-TDLEG-website/posts-output/2022-01-30-Blog-Post-LIN-Maoran/2022-01-30-Blog-Post-LIN-Maoran">Empirical Analysis: Some Ideas about Basic Data Manipulation and Usage of Machine Learning</a><br /><a href="/HKU-TDLEG-website/posts-output/2022-01-30-Blog-Post-Twitter-LIN-Maoran/2022-01-30-Blog-Post-Twitter-LIN-Maoran">Ideas about Data Processing and Getting Regression Statistics</a><br /></p><p><strong>Oscar Jay LEW</strong><br /><a href="/HKU-TDLEG-website/posts-output/2022-01-06-Blog-Post-Oscar-Jey-LEW/2022-01-06-Blog-Post-Oscar-Jey-LEW">Blog Post-Oscar Jey LEW_20220106</a><br /></p><p><strong>WANG Xizhuo</strong><br /><a href="/HKU-TDLEG-website/posts-output/2021-11-21-Blog-Post-WANG-Xizhuo/2021-11-21-Blog-Post-WANG-Xizhuo">Data Science in Finance - First Blog</a><br /><a href="/HKU-TDLEG-website/posts-output/2022-01-17-Blog-Post-WANG-Xizhuo/2022-01-17-Blog-Post-WANG-Xizhuo">Data Science in Finance - Second Blog</a><br /><a href="/HKU-TDLEG-website/posts-output/2022-02-09-Blog-Post-WANG-Xizhuo/2022-02-09-Blog-Post-WANG-Xizhuo">Data Science in Finance - Third Blog</a><br /></p><p><strong>ZHONG Yanting</strong><br /><a href="/HKU-TDLEG-website/posts-output/2022-02-24-Blog-Post-ZHONG-Yanting/2022-02-24-Blog-Post-ZHONG-Yanting">First Blog - Grace Zhong</a><br /></p><p><strong>ZHU Jiarui</strong><br /><a href="/HKU-TDLEG-website/posts-output/2022-03-14-Blog-Post-ZHU-Jiarui/2022-03-14-Blog-Post-ZHU-Jiarui">clojure methods for OOP development</a><br /></p>
+    <p>With the basic foundation and design implemented, we try to add more query options. One of the common options is the sort-by function.</p><p>To implement the sort-by option, the query foundation is updated. For the syntax design, the third section has been changed to option section, including group-by, sort-by and future options. However, for the query to differentiate different options, keywords for different options are included. The sort-by syntax is as follows:</p><pre><code class="clojure">:sort-by col comparable-operator
+</code></pre><p>The <em>comparable-operator</em> may be one of:</p><ul><li>Clojure operator like &lt; or &gt;</li><li>tech.numerics/&gt;, tech.numerics/&lt;</li><li>clojure.core/compare</li><li>custome java.util.Comparator
+(It will be set to &lt; if nothing is passed.)</li></ul><p>The new syntax requires the user to use a corresponding keyword of the function. Here shows the new design:</p><pre><code class="clojure">dt-get DT '[[col1 filtering_function1] [agg_keyword col2 filtering_function2] &amp; col1 agg_keyword col2 &amp; :group-by col1 col2 :sort-by col1]
+
+This query has a group-by with col1 and col2 and sorts the return table sorted by ascending order. 
+
+dt-get DT '[[col1 filtering_function1] [agg_keyword col2 filtering_function2] &amp; col1 agg_keyword col2 &amp; :group-by col1 col2 :sort-by col1 &gt;]
+</code></pre><p>This query, on the other hand, sorts the return table sorted by descending order.</p>
+</div>
+
+<br/>
 
     <!--<div id="prev-next">
         
-        <a class="button" href="/HKU-TDLEG-website/pages-output/about/">&laquo; About</a>
+        <a class="button" href="/HKU-TDLEG-website/posts-output/2022-03-14-Blog-Post-ZHU-Jiarui/2022-03-14-Blog-Post-ZHU-Jiarui/">&laquo; clojure methods for OOP development</a>
         
+        
+        <a class="right button" href="/HKU-TDLEG-website/posts-output/2022-02-26-Blog-Post-CHOI-Chong-Hing/2022-02-26-Blog-Post-CHOI-Chong-Hing/">Syntax Design &raquo;</a>
         
     </div>-->
+
+    
+
+
 </div>
 
 <hr/>

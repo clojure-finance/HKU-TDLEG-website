@@ -7,7 +7,7 @@
     <!-- Website Template designed by www.downloadwebsitetemplates.co.uk -->
     <!-- Modified to fit Cryogen.-->
     <meta charset="UTF-8">
-    <title>HKU-TDLEG: Blog Post-CHOI Chong Hing_20220129</title>
+    <title>HKU-TDLEG: Implementation of Query Foundation</title>
     
 <meta name="keywords" content="">
 
@@ -16,7 +16,7 @@
 <meta property="og:description" content="The implementation of the DSL query foundation went well. The biggest problem I have encountered was the group by operation. This is mainly due to the difference in the output results of the generic query and the tech.ml.dataset. The group by function in tech.ml.dataset outputs a map with the column values (or indices) to the corresponding datatable; while our query would be outputting a single datatable, similar to SQL query. The library also does not support multiple column group-by operation.To solve the difference in output, a table join between the first item in group-by datatable and the descriptive table is made. This combines all the aggregated columns and the original columns, forming a table with all columns.">
 
 <meta property="og:url" content="https://clojure-finance.github.io/HKU-TDLEG-website/HKU-TDLEG-website/posts-output/2022-01-29-Blog-Post-CHOI-Chong-Hing/2022-01-29-Blog-Post-CHOI-Chong-Hing/" />
-<meta property="og:title" content="Blog Post-CHOI Chong Hing_20220129" />
+<meta property="og:title" content="Implementation of Query Foundation" />
 <meta property="og:type" content="article" />
 
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -110,7 +110,7 @@
         <span class="col-lg-6 right">By: CHOI Chong Hing</span>
         
     </div>
-    <h1>Blog Post-CHOI Chong Hing_20220129</h1>
+    <h1>Implementation of Query Foundation</h1>
 </div>
 <div>
     
