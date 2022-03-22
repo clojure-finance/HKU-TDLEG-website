@@ -3,7 +3,7 @@
  :page-index 0
  :home? true}
 
-This is the home page of HKU-TDLEG, a website keeping track of our contributors' project progress.
+This is the home page of HKU-TDLEG of Dr. Matthias Buehlmaier, a website keeping track of our contributors' project progress.
 
 ## Project List
 
@@ -48,5 +48,3 @@ This is the home page of HKU-TDLEG, a website keeping track of our contributors'
   Contributor: ZHANG Wenkai
 
   Developing a website can be hard, but tools make it easier. In this project, a static website development tool based on Clojure, ```Cryogen```, will be used to develop the HKU-TDLEG website. The contributor will explore the features and advantages of Cryogen, and try to develop a professional blog website recording the progress of all contributors' work. [Details can be found here.](/pages-output/ZHANG-Wenkai)
- 
-To access detailed posts, please go to [content](/pages-output/content) for posts sorted by authors' name or [archives](/archives) for posts sorted by publishing time.
