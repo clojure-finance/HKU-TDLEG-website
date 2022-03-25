@@ -17,5 +17,3 @@ You can find our HKU-TDLEG GitHub repositories at:<br/>
 
 You can find all our repositories at:<br/>
 [clojure-finance](https://github.com/clojure-finance)
-
-Or alternatively, you can find the link on the lower-left corner of the website.
