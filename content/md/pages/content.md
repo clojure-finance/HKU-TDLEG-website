@@ -1,6 +1,6 @@
 {:title "Content"
  :layout :page
- :page-index 2
+ :page-index 9
  :navbar? true}
 
 This page shows a full list of posts from contributors.

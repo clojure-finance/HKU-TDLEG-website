@@ -1,5 +1,6 @@
 {:title "Delta hedging with Clojure backtesting library"
  :layout :page
+ :page-index 4
  :navbar? true}
 
 Contributor: WANG Xizhuo

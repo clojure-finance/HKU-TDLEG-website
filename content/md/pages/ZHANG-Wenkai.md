@@ -1,5 +1,6 @@
 {:title "HKU-TDLEG website development"
  :layout :page
+ :page-index 7
  :navbar? true}
 
 Contributor: ZHANG Wenkai

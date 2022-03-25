@@ -1,5 +1,6 @@
 {:title "Data Processing Domain-Specific Language in Clojure"
  :layout :page
+ :page-index 3
  :navbar? true}
 
 Contributor: CHOI Chong Hing
@@ -16,3 +17,5 @@ In this project, a DSL extension to the existing data processing library, ```tec
 [Sort-by Function Implementation](/posts-output/2022-03-12-Blog-Post-CHOI-Chong-Hing/2022-03-12-Blog-Post-CHOI-Chong-Hing)<br/>
 
 ### [Report](/pdf/Report-CHOI-Chong-Hing.pdf)
+
+### [Poster](/pdf/Poster-CHOI-Chong-Hing.pdf)

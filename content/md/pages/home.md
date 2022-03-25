@@ -25,6 +25,7 @@ This is the home page of HKU-TDLEG of Dr. Matthias Buehlmaier, a website keeping
   
   - [Details can be found here.](/pages-output/CHOI-Chong-Hing)
   - [Report](/pdf/Report-CHOI-Chong-Hing.pdf)
+  - [Poster](/pdf/Poster-CHOI-Chong-Hing.pdf)
 
 ### Delta hedging with Clojure backtesting library
 
