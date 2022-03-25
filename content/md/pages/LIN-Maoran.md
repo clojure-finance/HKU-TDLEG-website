@@ -1,8 +1,12 @@
 {:title "Exploring the Signaling Effect of Equity Offering in Venture Capital Investment"
  :layout :page
- :navbar? false}
+ :navbar? true}
 
 Contributor: LIN Maoran
+
+This project will explore the impact of firms’ equity offering decisions in venture capital deals with the theory of signaling game. It will assess the signaling effect of equity offer by reviewing the mathematical model proposed in Gibbons (1992) and analyzing the empirical data.
+
+### [Proposal](/pdf/Proposal-LIN-Maoran.pdf)
 
 ### Blogs
 [Some Initiatives about my Project](/posts-output/2021-11-21-Blog-Post-LIN-Maoran/2021-11-21-Blog-Post-LIN-Maoran)<br/>
