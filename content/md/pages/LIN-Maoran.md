@@ -3,13 +3,15 @@
  :page-index 6
  :navbar? true}
 
-Contributor: LIN Maoran
+## Description
+This project will explore the impact of firms’ equity offering decisions in venture capital deals with the theory of signaling game. It will assess the signaling effect of equity offer by reviewing the mathematical model proposed in Gibbons (1992) and analyzing the empirical data. [GitHub Repo.](https://github.com/clojure-finance/HKU-TDLEG-financial-signaling-game)
 
-This project will explore the impact of firms’ equity offering decisions in venture capital deals with the theory of signaling game. It will assess the signaling effect of equity offer by reviewing the mathematical model proposed in Gibbons (1992) and analyzing the empirical data.
+## Contributor
+LIN Maoran
 
-### [Proposal](/pdf/Proposal-LIN-Maoran.pdf)
+## [Proposal](/pdf/Proposal-LIN-Maoran.pdf)
 
-### Blogs
+## Blogs
 [Some Initiatives about my Project](/posts-output/2021-11-21-Blog-Post-LIN-Maoran/2021-11-21-Blog-Post-LIN-Maoran)<br/>
 [Initial Ideas about the Signaling Game Model for Clojuring](/posts-output/2021-12-19-Blog-Post-LIN-Maoran/2021-12-19-Blog-Post-LIN-Maoran)<br/>
 [How to Incorporate Time-Series Variable in my Signaling Model](/posts-output/2022-01-02-Blog-Post-LIN-Maoran/2022-01-02-Blog-Post-LIN-Maoran)<br/>
@@ -18,6 +20,6 @@ This project will explore the impact of firms’ equity offering decisions in ve
 [Empirical Analysis: Some Ideas about Basic Data Manipulation and Usage of Machine Learning](/posts-output/2022-01-30-Blog-Post-LIN-Maoran/2022-01-30-Blog-Post-LIN-Maoran)<br/>
 [Ideas about Data Processing and Getting Regression Statistics](/posts-output/2022-01-30-Blog-Post-Twitter-LIN-Maoran/2022-01-30-Blog-Post-Twitter-LIN-Maoran)<br/>
 
-### [Report](/pdf/Report-LIN-Maoran.pdf)
+## [Report](/pdf/Report-LIN-Maoran.pdf)
 
-### [Poster](/pdf/Poster-LIN-Maoran.pdf)
+## [Poster](/pdf/Poster-LIN-Maoran.pdf)
