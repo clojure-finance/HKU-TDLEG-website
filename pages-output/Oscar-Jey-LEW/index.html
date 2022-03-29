@@ -7,16 +7,15 @@
     <!-- Website Template designed by www.downloadwebsitetemplates.co.uk -->
     <!-- Modified to fit Cryogen.-->
     <meta charset="UTF-8">
-    <title>HKU-TDLEG: First Blog - Grace Zhong</title>
+    <title>HKU-TDLEG: WeJure</title>
     
-<meta name="keywords" content="">
 
-<meta name="description" content="After some back and forth, I decided on the pure computer science project – heap in Clojure, as an exploration in data structure while catering for a small technical need in Clojask.After some research and discussion, I found that there are two main methods to approach this problem:">
+<meta name="description" content="DescriptionA decentralised social media using blockchain and ipfs. GitHub Repo.">
 
-<meta property="og:description" content="After some back and forth, I decided on the pure computer science project – heap in Clojure, as an exploration in data structure while catering for a small technical need in Clojask.After some research and discussion, I found that there are two main methods to approach this problem:">
+<meta property="og:description" content="DescriptionA decentralised social media using blockchain and ipfs. GitHub Repo.">
 
-<meta property="og:url" content="https://clojure-finance.github.io/HKU-TDLEG-website/HKU-TDLEG-website/posts-output/2022-02-24-Blog-Post-ZHONG-Yanting/2022-02-24-Blog-Post-ZHONG-Yanting/" />
-<meta property="og:title" content="First Blog - Grace Zhong" />
+<meta property="og:url" content="https://clojure-finance.github.io/HKU-TDLEG-website/HKU-TDLEG-website/pages-output/Oscar-Jey-LEW/" />
+<meta property="og:title" content="WeJure" />
 <meta property="og:type" content="article" />
 
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -94,7 +93,7 @@
                 <a href="/HKU-TDLEG-website/pages-output/ZHANG-Wenkai/">HKU-TDLEG website development</a>
             </li>
             
-            <li >
+            <li  class="active" >
                 <a href="/HKU-TDLEG-website/pages-output/Oscar-Jey-LEW/">WeJure</a>
             </li>
             
@@ -127,35 +126,21 @@
 
 <div id="right" class="clearfix">
     
-<div id="post">
-    <div class="post-header">
-    <div id="post-meta" class="row">
-        <strong>February 24, 2022</strong>
-        
-        <span class="col-lg-6 right">By: ZHONG Yanting</span>
-        
+<div id="custom-page">
+    <div id="page-header">
+        <h1>WeJure</h1>
     </div>
-    <h1>First Blog - Grace Zhong</h1>
-</div>
-<div>
     
-    <p>After some back and forth, I decided on the pure computer science project – heap in Clojure, as an exploration in data structure while catering for a small technical need in Clojask.</p><p>After some research and discussion, I found that there are two main methods to approach this problem:</p><ol><li><p>Start the construction of this data structure in Clojure from zero by defining a new type. The basic idea of a (binary) heap goes as follows:</p><ul><li>For a max heap, for example, the value of the parent node must be greater than or equal to its child nodes, i.e., <code>heap[k] &gt;= heap[2*k+1]</code> and <code>heap[k] &gt;= heap[2*k+2]</code> for all <code>k</code>, counting elements from zero.</li></ul><p>By this logic, the sorting should be starting from the last element collection and comparing <code>heap[k]</code> and <code>heap[(k-1)/2]</code> if k is odd, <code>heap[(k-2)/2]</code> when k is even, starting from zero.</p></li><li><p>Wrapping the priority queue in Java and use in Clojure. This should be a quicker method and would be the one I focus on for now. Three main aspects to work on:</p><ul><li>How to define a class in Java</li><li>Clojure datatypes</li><li>How to use Java classes in Clojure</li></ul><p>Since I’m also new to Java, it still takes me sometime in the learning process before starting working.</p></li></ol><p>I went through some materials to consolidate my foundational background.</p><ol><li>Basics in data structures and algorithms, including concepts like ADT, stack, queue, priority queue and heap.</li><li>Clojure-by-examples.</li><li>Java tutorials.</li></ol><p>I encountered some challenges with regard to the project - mainly the study of these languages since I’m new to both Java and Clojure. While having used heap in Python as a starting point to understand this data structure, the remaining problem would be how to move this idea to new languages.</p><p>Based on the plan above, I will continue to be studying Java and Clojure and working on wrapping the priority queue in Java.</p>
-</div>
-
-<br/>
+    <h2 id="description">Description</h2><p>A decentralised social media using blockchain and ipfs. <a href="https://github.com/clojure-finance/HKU-TDLEG-WeJure">GitHub Repo.</a></p><h2 id="contributor">Contributor</h2><p>Oscar Jey LEW</p><h2 id="blogs">Blogs</h2><p><a href="/HKU-TDLEG-website/posts-output/2022-01-06-Blog-Post-Oscar-Jey-LEW/2022-01-06-Blog-Post-Oscar-Jey-LEW">A decentralised social media</a><br /><a href="/HKU-TDLEG-website/posts-output/2022-01-20-Blog-Post-Oscar-Jey-LEW/2022-01-20-Blog-Post-Oscar-Jey-LEW">Using Reagent for my web app</a><br /><a href="/HKU-TDLEG-website/posts-output/2022-02-03-Blog-Post-Oscar-Jey-LEW/2022-02-03-Blog-Post-Oscar-Jey-LEW">Switching to shadow-cljs</a><br /></p>
 
     <!--<div id="prev-next">
         
-        <a class="button" href="/HKU-TDLEG-website/posts-output/2022-02-26-Blog-Post-CHOI-Chong-Hing/2022-02-26-Blog-Post-CHOI-Chong-Hing/">&laquo; Syntax Design</a>
+        <a class="button" href="/HKU-TDLEG-website/pages-output/ZHANG-Wenkai/">&laquo; HKU-TDLEG website development</a>
         
         
-        <a class="right button" href="/HKU-TDLEG-website/posts-output/2022-02-11-Blog-Post-ZHANG-Wenkai/2022-02-11-Blog-Post-ZHANG-Wenkai/">Blog three - A more mature website &raquo;</a>
+        <a class="right button" href="/HKU-TDLEG-website/pages-output/about/">About &raquo;</a>
         
     </div>-->
-
-    
-
-
 </div>
 
 <hr/>

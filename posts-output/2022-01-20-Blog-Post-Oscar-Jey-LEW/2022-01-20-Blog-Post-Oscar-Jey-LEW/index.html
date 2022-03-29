@@ -7,16 +7,16 @@
     <!-- Website Template designed by www.downloadwebsitetemplates.co.uk -->
     <!-- Modified to fit Cryogen.-->
     <meta charset="UTF-8">
-    <title>HKU-TDLEG: First Blog - Grace Zhong</title>
+    <title>HKU-TDLEG: Using Reagent for my web app</title>
     
 <meta name="keywords" content="">
 
-<meta name="description" content="After some back and forth, I decided on the pure computer science project – heap in Clojure, as an exploration in data structure while catering for a small technical need in Clojask.After some research and discussion, I found that there are two main methods to approach this problem:">
+<meta name="description" content="In the last blog, I mentioned that I was deciding between figwheel and shadow-cljs.After doing some research, I have chosen to use figwheel as my initial development tool for the web app, as it is written on the Clojure website that “figwheel-main has fewer moving parts than shadow-cljs and is therefore very simple to learn and work with”.">
 
-<meta property="og:description" content="After some back and forth, I decided on the pure computer science project – heap in Clojure, as an exploration in data structure while catering for a small technical need in Clojask.After some research and discussion, I found that there are two main methods to approach this problem:">
+<meta property="og:description" content="In the last blog, I mentioned that I was deciding between figwheel and shadow-cljs.After doing some research, I have chosen to use figwheel as my initial development tool for the web app, as it is written on the Clojure website that “figwheel-main has fewer moving parts than shadow-cljs and is therefore very simple to learn and work with”.">
 
-<meta property="og:url" content="https://clojure-finance.github.io/HKU-TDLEG-website/HKU-TDLEG-website/posts-output/2022-02-24-Blog-Post-ZHONG-Yanting/2022-02-24-Blog-Post-ZHONG-Yanting/" />
-<meta property="og:title" content="First Blog - Grace Zhong" />
+<meta property="og:url" content="https://clojure-finance.github.io/HKU-TDLEG-website/HKU-TDLEG-website/posts-output/2022-01-20-Blog-Post-Oscar-Jey-LEW/2022-01-20-Blog-Post-Oscar-Jey-LEW/" />
+<meta property="og:title" content="Using Reagent for my web app" />
 <meta property="og:type" content="article" />
 
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -130,26 +130,26 @@
 <div id="post">
     <div class="post-header">
     <div id="post-meta" class="row">
-        <strong>February 24, 2022</strong>
+        <strong>January 20, 2022</strong>
         
-        <span class="col-lg-6 right">By: ZHONG Yanting</span>
+        <span class="col-lg-6 right">By: Oscar Jey LEW</span>
         
     </div>
-    <h1>First Blog - Grace Zhong</h1>
+    <h1>Using Reagent for my web app</h1>
 </div>
 <div>
     
-    <p>After some back and forth, I decided on the pure computer science project – heap in Clojure, as an exploration in data structure while catering for a small technical need in Clojask.</p><p>After some research and discussion, I found that there are two main methods to approach this problem:</p><ol><li><p>Start the construction of this data structure in Clojure from zero by defining a new type. The basic idea of a (binary) heap goes as follows:</p><ul><li>For a max heap, for example, the value of the parent node must be greater than or equal to its child nodes, i.e., <code>heap[k] &gt;= heap[2*k+1]</code> and <code>heap[k] &gt;= heap[2*k+2]</code> for all <code>k</code>, counting elements from zero.</li></ul><p>By this logic, the sorting should be starting from the last element collection and comparing <code>heap[k]</code> and <code>heap[(k-1)/2]</code> if k is odd, <code>heap[(k-2)/2]</code> when k is even, starting from zero.</p></li><li><p>Wrapping the priority queue in Java and use in Clojure. This should be a quicker method and would be the one I focus on for now. Three main aspects to work on:</p><ul><li>How to define a class in Java</li><li>Clojure datatypes</li><li>How to use Java classes in Clojure</li></ul><p>Since I’m also new to Java, it still takes me sometime in the learning process before starting working.</p></li></ol><p>I went through some materials to consolidate my foundational background.</p><ol><li>Basics in data structures and algorithms, including concepts like ADT, stack, queue, priority queue and heap.</li><li>Clojure-by-examples.</li><li>Java tutorials.</li></ol><p>I encountered some challenges with regard to the project - mainly the study of these languages since I’m new to both Java and Clojure. While having used heap in Python as a starting point to understand this data structure, the remaining problem would be how to move this idea to new languages.</p><p>Based on the plan above, I will continue to be studying Java and Clojure and working on wrapping the priority queue in Java.</p>
+    <p>In the last blog, I mentioned that I was deciding between figwheel and shadow-cljs.</p><p>After doing some research, I have chosen to use figwheel as my initial development tool for the web app, as it is written on the Clojure website that “figwheel-main has fewer moving parts than shadow-cljs and is therefore very simple to learn and work with”.</p><p>(<a href="https://ask.clojure.org/index.php/10403/pros-and-cons-figwheel-vs-shadowcljs">https://ask.clojure.org/index.php/10403/pros-and-cons-figwheel-vs-shadowcljs</a>)</p><p>Having decided the development tool, I moved on to finding whether there exists a React-like ClojureScript package.</p><p>In short, React is a JavaScript (JS) library that allows its users to create HTML components using simple JS code.</p><p>Citing cimplilearn, here are some of the advantages of using React:</p><ul><li><p>Easy creation of dynamic applications: React makes it easier to create dynamic web applications because it requires less coding and offers more functionality, as opposed to JavaScript, where coding often gets complex very quickly.</p></li><li><p>Improved performance: React uses Virtual DOM, thereby creating web applications faster. Virtual DOM compares the components’ previous states and updates only the items in the Real DOM that were changed, instead of updating all of the components again, as conventional web applications do.</p></li><li><p>Reusable components: Components are the building blocks of any React application, and a single app usually consists of multiple components. These components have their logic and controls, and they can be reused throughout the application, which in turn dramatically reduces the application’s development time.</p></li><li><p>Small learning curve: React is easy to learn, as it mostly combines basic HTML and JavaScript concepts with some beneficial additions.</p></li></ul><p>(<a href="https://www.simplilearn.com/tutorials/reactjs-tutorial/what-is-reactjs">https://www.simplilearn.com/tutorials/reactjs-tutorial/what-is-reactjs</a>)</p><p>It turns out that ClojureScipt has a library, Reagent that acts as an interface to React. And thus, my goals for the next two weeks are to pick up Reagent and to find a ClojureScript library that can help me interact with the Etherium blockchain.</p><p>(<a href="https://github.com/reagent-project/reagent">https://github.com/reagent-project/reagent</a>)</p>
 </div>
 
 <br/>
 
     <!--<div id="prev-next">
         
-        <a class="button" href="/HKU-TDLEG-website/posts-output/2022-02-26-Blog-Post-CHOI-Chong-Hing/2022-02-26-Blog-Post-CHOI-Chong-Hing/">&laquo; Syntax Design</a>
+        <a class="button" href="/HKU-TDLEG-website/posts-output/2022-01-24-Blog-Post-ZHANG-Wenkai/2022-01-24-Blog-Post-ZHANG-Wenkai/">&laquo; Blog two - Being part of the INTERNET</a>
         
         
-        <a class="right button" href="/HKU-TDLEG-website/posts-output/2022-02-11-Blog-Post-ZHANG-Wenkai/2022-02-11-Blog-Post-ZHANG-Wenkai/">Blog three - A more mature website &raquo;</a>
+        <a class="right button" href="/HKU-TDLEG-website/posts-output/2022-01-17-Blog-Post-WANG-Xizhuo/2022-01-17-Blog-Post-WANG-Xizhuo/">Data Science in Finance - Second Blog &raquo;</a>
         
     </div>-->
 
