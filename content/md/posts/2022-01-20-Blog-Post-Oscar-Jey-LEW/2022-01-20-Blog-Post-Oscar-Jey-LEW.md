@@ -6,7 +6,7 @@ In the last blog, I mentioned that I was deciding between figwheel and shadow-cl
 
 After doing some research, I have chosen to use figwheel as my initial development tool for the web app, as it is written on the Clojure website that “figwheel-main has fewer moving parts than shadow-cljs and is therefore very simple to learn and work with”.
 
-(https://ask.clojure.org/index.php/10403/pros-and-cons-figwheel-vs-shadowcljs)
+([https://ask.clojure.org/index.php/10403/pros-and-cons-figwheel-vs-shadowcljs](https://ask.clojure.org/index.php/10403/pros-and-cons-figwheel-vs-shadowcljs))
 
 Having decided the development tool, I moved on to finding whether there exists a React-like ClojureScript package.
 
@@ -22,8 +22,8 @@ Citing cimplilearn, here are some of the advantages of using React:
 
 - Small learning curve: React is easy to learn, as it mostly combines basic HTML and JavaScript concepts with some beneficial additions.
 
-(https://www.simplilearn.com/tutorials/reactjs-tutorial/what-is-reactjs)
+([https://www.simplilearn.com/tutorials/reactjs-tutorial/what-is-reactjs](https://www.simplilearn.com/tutorials/reactjs-tutorial/what-is-reactjs))
 
 It turns out that ClojureScipt has a library, Reagent that acts as an interface to React. And thus, my goals for the next two weeks are to pick up Reagent and to find a ClojureScript library that can help me interact with the Etherium blockchain.
 
-(https://github.com/reagent-project/reagent)
+([https://github.com/reagent-project/reagent](https://github.com/reagent-project/reagent))
