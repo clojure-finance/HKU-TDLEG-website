@@ -1,6 +1,6 @@
 {:title "Exploring the Signaling Effect of Equity Offering in Venture Capital Investment"
  :layout :page
- :page-index 6
+ :page-index 5
  :navbar? true}
 
 ## Description

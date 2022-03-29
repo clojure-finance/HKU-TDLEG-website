@@ -81,3 +81,11 @@ This is the home page of HKU-TDLEG of Dr. Matthias Buehlmaier, a website keeping
     + [Proposal](/pdf/Proposal-ZHANG-Wenkai.pdf)
     + [Report](/pdf/Report-ZHANG-Wenkai.pdf)
   - [Details can be found here.](/pages-output/ZHANG-Wenkai)
+
+### WeJure
+
+  Contributor: Oscar Jey LEW
+
+  A decentralised social media using blockchain and ipfs. [GitHub Repo.](https://github.com/clojure-finance/HKU-TDLEG-WeJure)
+
+  - [Details can be found here.](/pages-output/Oscar-Jey-LEW)

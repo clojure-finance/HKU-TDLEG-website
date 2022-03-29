@@ -1,6 +1,6 @@
 {:title "Clojure Heap"
  :layout :page
- :page-index 2
+ :page-index 1
  :navbar? true}
 
 ## Description

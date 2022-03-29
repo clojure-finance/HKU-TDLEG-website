@@ -1,6 +1,6 @@
 {:title "About"
  :layout :page
- :page-index 1
+ :page-index 8
  :navbar? true}
 
 The purpose of the HKU-TDLEG website is to record the progress of our contributors' projects.<br/>

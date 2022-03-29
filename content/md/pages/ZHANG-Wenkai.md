@@ -1,6 +1,6 @@
 {:title "HKU-TDLEG website development"
  :layout :page
- :page-index 7
+ :page-index 6
  :navbar? true}
 
 ## Description

@@ -1,6 +1,6 @@
 {:title "Data Processing Domain-Specific Language in Clojure"
  :layout :page
- :page-index 3
+ :page-index 2
  :navbar? true}
 
 ## Description
