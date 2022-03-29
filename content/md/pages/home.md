@@ -11,13 +11,13 @@ This is the home page of HKU-TDLEG of Dr. Matthias Buehlmaier, a website keeping
 
   Contributor: ZHONG Yanting
 
-  As one of the most important data structures in programming, heap or priority queue could be used to force the order of outputs. A Clojure wrapper of ```java.util.PriorityQueue``` would be provided in this project, including basic APIs such as init, add, pop, etc. [GitHub Repo.](https://github.com/clojure-finance/clojure-heap2)
+  As one of the most important data structures in programming, heap or priority queue could be used to force the order of outputs. A Clojure wrapper of ```java.util.PriorityQueue``` would be provided in this project, including basic APIs such as init, add, pop, etc.
 
-  - Overview
-    + [Proposal](/pdf/Proposal-ZHONG-Yanting.pdf)
-    + [Report](/pdf/Report-ZHONG-Yanting.pdf)
-    + [Poster](/pdf/Poster-ZHONG-Yanting.pdf)
-  - [Details can be found here.](/pages-output/ZHONG-Yanting)
+  - [Poster](/pdf/Poster-ZHONG-Yanting.pdf)
+  - [Blog posts and project page](/pages-output/ZHONG-Yanting)
+  - [Proposal](/pdf/Proposal-ZHONG-Yanting.pdf)
+  - [Summary report](/pdf/Report-ZHONG-Yanting.pdf)
+  - [GitHub repository](https://github.com/clojure-finance/clojure-heap2)
 
 ### Data Processing Domain-Specific Language in Clojure
 
@@ -25,26 +25,26 @@ This is the home page of HKU-TDLEG of Dr. Matthias Buehlmaier, a website keeping
 
   Domain Specific Language (DSL) is a computer language, declared syntax or grammar that is specialised to a specific application. In contrast to General-Purpose Language, implemenation of DSL is designed with specific goals in that application domain. The use of macros in Lisp dialects enables developers to rewrite source code at compile time, making implementation of DSL more convenient. As one of the Lisp dialects, Clojure also inheriates such advantage. In addition to macros, the heavy use of core data literals in Clojure also gives an extensive developing opportunity in implementing DSLs.
 
-  In this project, a DSL extension to the existing data processing library, ```tech.ml.dataset```, will be developed. A generic query using core data literal serves as the foundation of the DSL. This enables huge flexibility in defining the syntax, subject to Clojure’s limitation. [GitHub Repo.](https://github.com/clojure-finance/HKU-TDLEG-data-processing-DSL)
+  In this project, a DSL extension to the existing data processing library, ```tech.ml.dataset```, will be developed. A generic query using core data literal serves as the foundation of the DSL. This enables huge flexibility in defining the syntax, subject to Clojure’s limitation.
   
-  - Overview
-    + [Proposal](/pdf/Proposal-CHOI-Chong-Hing.pdf)
-    + [Report](/pdf/Report-CHOI-Chong-Hing.pdf)
-    + [Poster](/pdf/Poster-CHOI-Chong-Hing.pdf)
-  - [Details can be found here.](/pages-output/CHOI-Chong-Hing)
+  - [Poster](/pdf/Poster-CHOI-Chong-Hing.pdf)
+  - [Blog posts and project page](/pages-output/CHOI-Chong-Hing)
+  - [Proposal](/pdf/Proposal-CHOI-Chong-Hing.pdf)
+  - [Summary report](/pdf/Report-CHOI-Chong-Hing.pdf)
+  - [GitHub repository](https://github.com/clojure-finance/HKU-TDLEG-data-processing-DSL)
 
-### Delta hedging with Clojure backtesting library
+### Delta Hedging With Clojure Backtesting Library
 
   Contributor: WANG Xizhuo
 
-  Construct a delta hedging strategy using the backtesting library in Clojure. Optimize the calculation of delta based on data science methods. Generate return results and use them for comparison. [GitHub Repo.](https://github.com/clojure-finance/HKU-TDLEG-backtesting-strategies-clojure)
+  Construct a delta hedging strategy using the backtesting library in Clojure. Optimize the calculation of delta based on data science methods. Generate return results and use them for comparison.
 
-  - Overview
-    + [Report](/pdf/Report-WANG-Xizhuo.pdf)
-    + [Poster](/pdf/Poster-WANG-Xizhuo.pdf)
-  - [Details can be found here.](/pages-output/WANG-Xizhuo)
+  - [Poster](/pdf/Poster-WANG-Xizhuo.pdf)
+  - [Blog posts and project page](/pages-output/WANG-Xizhuo)
+  - [Summary report](/pdf/Report-WANG-Xizhuo.pdf)
+  - [GitHub repository](https://github.com/clojure-finance/HKU-TDLEG-backtesting-strategies-clojure)
 
-### Development of heap structure for data storage and output in Clojure
+### Development of Heap Structure for Data Storage and Output in Clojure
 
   Contributor: ZHU Jiarui
 
@@ -52,40 +52,41 @@ This is the home page of HKU-TDLEG of Dr. Matthias Buehlmaier, a website keeping
 
   Existing implementations are mostly based on index operations in vectors, rather than the real tree structure. This kind of structure cannot meet the requirements for efficient computing. 
 
-  In this case, we need a maximum/minimum heap implementation scheme that is more in line with the characteristics of the heap. [GitHub Repo.](https://github.com/clojure-finance/clojure-heap)
+  In this case, we need a maximum/minimum heap implementation scheme that is more in line with the characteristics of the heap.
 
-  - Overview
-    + [Proposal](/pdf/Proposal-ZHU-Jiarui.pdf)
-    + [Report](/pdf/Report-ZHU-Jiarui.pdf)
-  - [Details can be found here.](/pages-output/ZHU-Jiarui)
+  - [Blog posts and project page](/pages-output/ZHU-Jiarui)
+  - [Proposal](/pdf/Proposal-ZHU-Jiarui.pdf)
+  - [Summary report](/pdf/Report-ZHU-Jiarui.pdf)
+  - [GitHub repository](https://github.com/clojure-finance/clojure-heap)
 
 ### Exploring the Signaling Effect of Equity Offering in Venture Capital Investment
 
   Contributor: LIN Maoran
 
-  This project will explore the impact of firms’ equity offering decisions in venture capital deals with the theory of signaling game. It will assess the signaling effect of equity offer by reviewing the mathematical model proposed in Gibbons (1992) and analyzing the empirical data. [GitHub Repo.](https://github.com/clojure-finance/HKU-TDLEG-financial-signaling-game)
+  This project will explore the impact of firms’ equity offering decisions in venture capital deals with the theory of signaling game. It will assess the signaling effect of equity offer by reviewing the mathematical model proposed in Gibbons (1992) and analyzing the empirical data.
   
-  - Overview
-    + [Proposal](/pdf/Proposal-LIN-Maoran.pdf)
-    + [Report](/pdf/Report-LIN-Maoran.pdf)
-    + [Poster](/pdf/Poster-LIN-Maoran.pdf)
-  - [Details can be found here.](/pages-output/LIN-Maoran)
+  - [Poster](/pdf/Poster-LIN-Maoran.pdf)
+  - [Blog posts and project page](/pages-output/LIN-Maoran)
+  - [Proposal](/pdf/Proposal-LIN-Maoran.pdf)
+  - [Summary report](/pdf/Report-LIN-Maoran.pdf)
+  - [GitHub repository](https://github.com/clojure-finance/HKU-TDLEG-financial-signaling-game)
 
-### HKU-TDLEG website development
+### HKU-TDLEG Website Development
 
   Contributor: ZHANG Wenkai
 
-  Developing a website can be hard, but tools make it easier. In this project, a static website development tool based on Clojure, ```Cryogen```, will be used to develop the HKU-TDLEG website. The contributor will explore the features and advantages of Cryogen, and try to develop a professional blog website recording the progress of all contributors' work. [GitHub Repo.](https://github.com/clojure-finance/HKU-TDLEG-website)
+  Developing a website can be hard, but tools make it easier. In this project, a static website development tool based on Clojure, ```Cryogen```, will be used to develop the HKU-TDLEG website. The contributor will explore the features and advantages of Cryogen, and try to develop a professional blog website recording the progress of all contributors' work.
   
-  - Overview
-    + [Proposal](/pdf/Proposal-ZHANG-Wenkai.pdf)
-    + [Report](/pdf/Report-ZHANG-Wenkai.pdf)
-  - [Details can be found here.](/pages-output/ZHANG-Wenkai)
+  - [Blog posts and project page](/pages-output/ZHANG-Wenkai)
+  - [Proposal](/pdf/Proposal-ZHANG-Wenkai.pdf)
+  - [Summary report](/pdf/Report-ZHANG-Wenkai.pdf)
+  - [GitHub repository](https://github.com/clojure-finance/HKU-TDLEG-website)
 
 ### WeJure
 
   Contributor: Oscar Jey LEW
 
-  A decentralised social media using blockchain and ipfs. [GitHub Repo.](https://github.com/clojure-finance/HKU-TDLEG-WeJure)
+  A decentralised social media using blockchain and ipfs.
 
-  - [Details can be found here.](/pages-output/Oscar-Jey-LEW)
+  - [Blog posts and project page](/pages-output/Oscar-Jey-LEW)
+  - [GitHub repository](https://github.com/clojure-finance/HKU-TDLEG-WeJure)

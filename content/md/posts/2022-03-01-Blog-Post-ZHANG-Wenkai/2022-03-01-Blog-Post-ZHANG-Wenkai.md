@@ -1,4 +1,4 @@
-{:title  "Blog four - Daily maintenance"
+{:title  "Blog Four - Daily Maintenance"
  :layout :post
  :author "ZHANG Wenkai"}
 

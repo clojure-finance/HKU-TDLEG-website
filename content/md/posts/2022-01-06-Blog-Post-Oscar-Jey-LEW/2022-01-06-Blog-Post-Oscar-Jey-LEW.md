@@ -1,4 +1,4 @@
-{:title  "Blog Post-Oscar Jey LEW_20220106"
+{:title  "A Decentralised Social Media"
  :layout :post
  :author "Oscar Jey LEW"}
 

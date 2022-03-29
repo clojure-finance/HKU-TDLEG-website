@@ -1,4 +1,4 @@
-{:title  "clojure methods for OOP development"
+{:title  "Clojure Methods for OOP Development"
  :layout :post
  :author "ZHU Jiarui"}
 

@@ -1,4 +1,4 @@
-{:title  "Switching to shadow-cljs"
+{:title  "Switching to Shadow-Cljs"
  :layout :post
  :author "Oscar Jey LEW"}
 

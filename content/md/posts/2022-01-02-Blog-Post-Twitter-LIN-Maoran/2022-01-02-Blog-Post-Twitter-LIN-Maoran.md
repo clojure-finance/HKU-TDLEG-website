@@ -1,4 +1,4 @@
-{:title  "The Starting Point of Coding with Clojure"
+{:title  "The Starting Point of Coding With Clojure"
  :layout :post
  :author "LIN Maoran"}
 

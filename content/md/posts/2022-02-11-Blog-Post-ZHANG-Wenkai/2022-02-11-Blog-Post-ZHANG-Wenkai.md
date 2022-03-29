@@ -1,4 +1,4 @@
-{:title  "Blog three - A more mature website"
+{:title  "Blog Three - A More Mature Website"
  :layout :post
  :author "ZHANG Wenkai"}
 

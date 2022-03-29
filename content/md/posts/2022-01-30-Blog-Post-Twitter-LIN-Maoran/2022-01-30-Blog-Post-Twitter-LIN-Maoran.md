@@ -1,4 +1,4 @@
-{:title  "Ideas about Data Processing and Getting Regression Statistics"
+{:title  "Ideas About Data Processing and Getting Regression Statistics"
  :layout :post
  :author "LIN Maoran"}
 

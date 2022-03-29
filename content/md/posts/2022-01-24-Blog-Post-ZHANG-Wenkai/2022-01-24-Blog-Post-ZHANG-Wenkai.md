@@ -1,4 +1,4 @@
-{:title  "Blog two - Being part of the INTERNET"
+{:title  "Blog Two - Being Part of the INTERNET"
  :layout :post
  :author "ZHANG Wenkai"}
 

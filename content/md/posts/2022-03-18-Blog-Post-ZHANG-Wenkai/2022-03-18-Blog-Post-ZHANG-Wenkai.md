@@ -1,4 +1,4 @@
-{:title  "Blog five - A major version update"
+{:title  "Blog Five - A Major Version Update"
  :layout :post
  :author "ZHANG Wenkai"}
 

@@ -1,4 +1,4 @@
-{:title  "Blog one - Getting to know Cryogen"
+{:title  "Blog One - Getting to Know Cryogen"
  :layout :post
  :author "ZHANG Wenkai"}
 

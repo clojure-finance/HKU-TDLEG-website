@@ -1,4 +1,4 @@
-{:title  "Initial Ideas about the Signaling Game Model for Clojuring"
+{:title  "Initial Ideas About the Signaling Game Model for Clojuring"
  :layout :post
  :author "LIN Maoran"}
 

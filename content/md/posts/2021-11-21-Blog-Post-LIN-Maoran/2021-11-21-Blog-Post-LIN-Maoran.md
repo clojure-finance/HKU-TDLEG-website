@@ -1,4 +1,4 @@
-{:title  "Some Initiatives about my Project"
+{:title  "Some Initiatives About my Project"
  :layout :post
  :author "LIN Maoran"}
 
