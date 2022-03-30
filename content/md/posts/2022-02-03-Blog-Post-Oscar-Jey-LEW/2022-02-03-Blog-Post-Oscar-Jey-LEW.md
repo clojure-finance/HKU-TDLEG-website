@@ -20,15 +20,15 @@ However, accessing JS libraries using figwheel is a lot more troublesome as comp
 
 [https://github.com/lauritzsh/reagent-shadow-cljs-starter](https://github.com/lauritzsh/reagent-shadow-cljs-starter)
 
-To install npm packages in nodeJS, we would first install run
+To install ```npm``` packages in nodeJS, we would first run
 ```clojure
 npm install web3
 ```
-Then in our JS program, we would require it using
+Then in our JS program, we would have to require it by doing
 ```clojure
 var web3 = require(“web3”);
 ```
-By using shadow-cljs, we would follow installation steps, but to use it in our program, we would do
+In shadow-cljs, we would follow the same installation steps, but to use it in our program, we would do
 ```clojure
 (ns my.app
   (:require ["web3" :as react]))

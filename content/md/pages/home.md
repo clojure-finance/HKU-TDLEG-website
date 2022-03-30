@@ -77,6 +77,7 @@ This is the home page of HKU-TDLEG of Dr. Matthias Buehlmaier, a website keeping
 
   Developing a website can be hard, but tools make it easier. In this project, a static website development tool based on Clojure, ```Cryogen```, will be used to develop the HKU-TDLEG website. The contributor will explore the features and advantages of Cryogen, and try to develop a professional blog website recording the progress of all contributors' work.
   
+  - [Poster](/pdf/Poster-ZHANG-Wenkai.pdf)
   - [Blog posts and project page](/pages-output/ZHANG-Wenkai)
   - [Proposal](/pdf/Proposal-ZHANG-Wenkai.pdf)
   - [Summary report](/pdf/Report-ZHANG-Wenkai.pdf)

@@ -17,6 +17,7 @@ Developing a website can be hard, but tools make it easier. In this project, a s
 - [Blog Five - A Major Version Update](/posts-output/2022-03-18-Blog-Post-ZHANG-Wenkai/2022-03-18-Blog-Post-ZHANG-Wenkai)
 
 ## Details
+- [Poster](/pdf/Poster-ZHANG-Wenkai.pdf)
 - [Proposal](/pdf/Proposal-ZHANG-Wenkai.pdf)
 - [Summary report](/pdf/Report-ZHANG-Wenkai.pdf)
 - [GitHub repository](https://github.com/clojure-finance/HKU-TDLEG-website)
