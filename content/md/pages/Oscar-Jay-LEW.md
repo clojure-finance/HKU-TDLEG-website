@@ -16,4 +16,5 @@ A decentralised social media using blockchain and ipfs.
 - [Using MUI as a Framework](/posts-output/2022-02-17-Blog-Post-Oscar-Jay-LEW/2022-02-17-Blog-Post-Oscar-Jay-LEW)
 
 ## Details
+- [Proposal](/pdf/Proposal-Oscar-Jay-LEW.pdf)
 - [GitHub repository](https://github.com/clojure-finance/HKU-TDLEG-WeJure)

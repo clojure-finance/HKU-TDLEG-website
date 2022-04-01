@@ -14,6 +14,7 @@ This is the home page of HKU-TDLEG of [Dr. Matthias Buehlmaier](http://www.buehl
   As one of the most important data structures in programming, heap or priority queue could be used to force the order of outputs. A Clojure wrapper of ```java.util.PriorityQueue``` would be provided in this project, including basic APIs such as init, add, pop, etc.
 
   - [Poster](/pdf/Poster-Grace-ZHONG-Yanting.pdf)
+  - [Virtual poster session](/mp4/Presentation-Grace-ZHONG-Yanting.mp4)
   - [Blog posts and project page](/pages-output/Grace-ZHONG-Yanting)
   - [Proposal](/pdf/Proposal-Grace-ZHONG-Yanting.pdf)
   - [Summary report](/pdf/Report-Grace-ZHONG-Yanting.pdf)
@@ -95,4 +96,5 @@ This is the home page of HKU-TDLEG of [Dr. Matthias Buehlmaier](http://www.buehl
   A decentralised social media using blockchain and ipfs.
 
   - [Blog posts and project page](/pages-output/Oscar-Jay-LEW)
+  - [Proposal](/pdf/Proposal-Oscar-Jay-LEW.pdf)
   - [GitHub repository](https://github.com/clojure-finance/HKU-TDLEG-WeJure)

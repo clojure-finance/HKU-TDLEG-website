@@ -14,6 +14,7 @@ As one of the most important data structures in programming, heap or priority qu
 
 ## Details
 - [Poster](/pdf/Poster-Grace-ZHONG-Yanting.pdf)
+- [Virtual poster session](/mp4/Presentation-Grace-ZHONG-Yanting.mp4)
 - [Proposal](/pdf/Proposal-Grace-ZHONG-Yanting.pdf)
 - [Summary report](/pdf/Report-Grace-ZHONG-Yanting.pdf)
 - [GitHub repository](https://github.com/clojure-finance/clojure-heap2)
