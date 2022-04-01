@@ -17,6 +17,8 @@ In this case, we need a maximum/minimum heap implementation scheme that is more 
 - [Clojure Methods for OOP Development](/posts-output/2022-03-14-Blog-Post-ZHU-Jiarui/2022-03-14-Blog-Post-ZHU-Jiarui)
 
 ## Details
+- [Poster](/pdf/Poster-ZHU-Jiarui.pdf)
+- [Virtual Poster Session](/mp4/Presentation-ZHU-Jiarui.mp4)
 - [Proposal](/pdf/Proposal-ZHU-Jiarui.pdf)
 - [Summary report](/pdf/Report-ZHU-Jiarui.pdf)
 - [GitHub repository](https://github.com/clojure-finance/clojure-heap)

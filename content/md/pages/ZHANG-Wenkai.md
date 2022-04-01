@@ -18,6 +18,7 @@ Developing a website can be hard, but tools make it easier. In this project, a s
 
 ## Details
 - [Poster](/pdf/Poster-ZHANG-Wenkai.pdf)
+- [Virtual Poster Session](/mp4/Presentation-ZHANG-Wenkai.mp4)
 - [Proposal](/pdf/Proposal-ZHANG-Wenkai.pdf)
 - [Summary report](/pdf/Report-ZHANG-Wenkai.pdf)
 - [GitHub repository](https://github.com/clojure-finance/HKU-TDLEG-website)

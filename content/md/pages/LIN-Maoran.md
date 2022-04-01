@@ -20,6 +20,7 @@ This project will explore the impact of firms’ equity offering decisions in ve
 
 ## Details
 - [Poster](/pdf/Poster-LIN-Maoran.pdf)
+- [Virtual Poster Session](/mp4/Presentation-LIN-Maoran.mp4)
 - [Proposal](/pdf/Proposal-LIN-Maoran.pdf)
 - [Summary report](/pdf/Report-LIN-Maoran.pdf)
 - [GitHub repository](https://github.com/clojure-finance/HKU-TDLEG-financial-signaling-game)

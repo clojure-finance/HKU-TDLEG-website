@@ -41,6 +41,7 @@ This is the home page of HKU-TDLEG of Dr. Matthias Buehlmaier, a website keeping
 
   - [Poster](/pdf/Poster-WANG-Xizhuo.pdf)
   - [Blog posts and project page](/pages-output/WANG-Xizhuo)
+  - [Proposal](/pdf/Proposal-WANG-Xizhuo.pdf)
   - [Summary report](/pdf/Report-WANG-Xizhuo.pdf)
   - [GitHub repository](https://github.com/clojure-finance/HKU-TDLEG-backtesting-strategies-clojure)
 
@@ -54,6 +55,8 @@ This is the home page of HKU-TDLEG of Dr. Matthias Buehlmaier, a website keeping
 
   In this case, we need a maximum/minimum heap implementation scheme that is more in line with the characteristics of the heap.
 
+  - [Poster](/pdf/Poster-ZHU-Jiarui.pdf)
+  - [Virtual Poster Session](/mp4/Presentation-ZHU-Jiarui.mp4)
   - [Blog posts and project page](/pages-output/ZHU-Jiarui)
   - [Proposal](/pdf/Proposal-ZHU-Jiarui.pdf)
   - [Summary report](/pdf/Report-ZHU-Jiarui.pdf)
@@ -66,6 +69,7 @@ This is the home page of HKU-TDLEG of Dr. Matthias Buehlmaier, a website keeping
   This project will explore the impact of firms’ equity offering decisions in venture capital deals with the theory of signaling game. It will assess the signaling effect of equity offer by reviewing the mathematical model proposed in Gibbons (1992) and analyzing the empirical data.
   
   - [Poster](/pdf/Poster-LIN-Maoran.pdf)
+  - [Virtual Poster Session](/mp4/Presentation-LIN-Maoran.mp4)
   - [Blog posts and project page](/pages-output/LIN-Maoran)
   - [Proposal](/pdf/Proposal-LIN-Maoran.pdf)
   - [Summary report](/pdf/Report-LIN-Maoran.pdf)
@@ -78,6 +82,7 @@ This is the home page of HKU-TDLEG of Dr. Matthias Buehlmaier, a website keeping
   Developing a website can be hard, but tools make it easier. In this project, a static website development tool based on Clojure, ```Cryogen```, will be used to develop the HKU-TDLEG website. The contributor will explore the features and advantages of Cryogen, and try to develop a professional blog website recording the progress of all contributors' work.
   
   - [Poster](/pdf/Poster-ZHANG-Wenkai.pdf)
+  - [Virtual Poster Session](/mp4/Presentation-ZHANG-Wenkai.mp4)
   - [Blog posts and project page](/pages-output/ZHANG-Wenkai)
   - [Proposal](/pdf/Proposal-ZHANG-Wenkai.pdf)
   - [Summary report](/pdf/Report-ZHANG-Wenkai.pdf)
