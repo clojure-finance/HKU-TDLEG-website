@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<head>
+    <!-- Website Template designed by www.downloadwebsitetemplates.co.uk -->
+    <!-- Modified to fit Cryogen.-->
+    <meta charset="UTF-8">
+    <title>HKU-TDLEG: Using MUI as a Framework</title>
+    
+<meta name="keywords" content="">
+
+<meta name="description" content="In my previous blog, I have mentioned that I have switched from figwheel to shadow-cljs, and that I have also chosen to use Reagent for my web app.For the past two weeks, I have further chosen to use reagent-material-ui as the framework for my Reagent components. reagent-material-ui is a wrapper for MUI, which is a very popular framework for React components.">
+
+<meta property="og:description" content="In my previous blog, I have mentioned that I have switched from figwheel to shadow-cljs, and that I have also chosen to use Reagent for my web app.For the past two weeks, I have further chosen to use reagent-material-ui as the framework for my Reagent components. reagent-material-ui is a wrapper for MUI, which is a very popular framework for React components.">
+
+<meta property="og:url" content="https://clojure-finance.github.io/HKU-TDLEG-website/HKU-TDLEG-website/posts-output/2022-02-17-Blog-Post-Oscar-Jay-LEW/2022-02-17-Blog-Post-Oscar-Jay-LEW/" />
+<meta property="og:title" content="Using MUI as a Framework" />
+<meta property="og:type" content="article" />
+
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57.png">
+    <link rel="shortcut icon" href="images/ico/favicon.png">
+    <!--[if IE]><![endif]-->
+    <link href="/HKU-TDLEG-website/css/buttons.css" rel="stylesheet" type="text/css" />
+    <link href="/HKU-TDLEG-website/css/menu.css" rel="stylesheet" type="text/css" />
+    <link href="/HKU-TDLEG-website/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="/HKU-TDLEG-website/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/HKU-TDLEG-website/css/typography.css" rel="stylesheet" type="text/css" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/tomorrow-night-eighties.min.css">
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--To show Markdown formula-->
+    <!--$ is for inline elements, $$ is for block elements -->
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          extensions: ["tex2jax.js"],
+          jax: ["input/TeX", "output/HTML-CSS"],
+          tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true
+          },
+          "HTML-CSS": { availableFonts: ["TeX"] }
+        });
+    </script>
+    <!--load newest MathJax file-->
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</head>
+<body>
+
+<div id="left">
+
+    <p id="logo">
+        <a title="HKU-TDLEG" href="/HKU-TDLEG-website/">
+            <span class="fa fa-sitemap"></span>
+            <span class="text">HKU-TDLEG</span>
+        </a>
+    </p>
+
+    <div id="menucont" class="bodycontainer clearfix">
+        <div class="menutitle">
+            <p><span class="fa fa-reorder"></span><strong>Menu</strong></p>
+        </div>
+        <ul class="menu">
+            <li ><a title="Home" href="/HKU-TDLEG-website/">Home</a></li>
+            
+            
+            <li >
+                <a href="/HKU-TDLEG-website/pages-output/Grace-ZHONG-Yanting/">Clojure Heap</a>
+            </li>
+            
+            <li >
+                <a href="/HKU-TDLEG-website/pages-output/Parry-CHOI-Chong-Hing/">Data Processing Domain-Specific Language in Clojure</a>
+            </li>
+            
+            <li >
+                <a href="/HKU-TDLEG-website/pages-output/Cindy-WANG-Xizhuo/">Delta Hedging With Clojure Backtesting Library</a>
+            </li>
+            
+            <li >
+                <a href="/HKU-TDLEG-website/pages-output/ZHU-Jiarui/">Development of Heap Structure for Data Storage and Output in Clojure</a>
+            </li>
+            
+            <li >
+                <a href="/HKU-TDLEG-website/pages-output/LIN-Maoran/">Exploring the Signaling Effect of Equity Offering in Venture Capital Investment</a>
+            </li>
+            
+            <li >
+                <a href="/HKU-TDLEG-website/pages-output/Kevin-ZHANG-Wenkai/">HKU-TDLEG Website Development</a>
+            </li>
+            
+            <li >
+                <a href="/HKU-TDLEG-website/pages-output/Oscar-Jay-LEW/">WeJure</a>
+            </li>
+            
+            <!--ignore archives-->
+            <!--<li ><a title="Archives" href="/HKU-TDLEG-website/archives/">Archives</a></li>-->
+        </ul>
+    </div>
+
+    <!--<div id="socialmedia" class="clearfix">
+        <ul>
+            <li>
+                <a title="GitHub" href="https://github.com/clojure-finance" rel="external">
+                    <span class="fa fa-github">
+                        <span style="font-family: 'Montserrat';text-transform: uppercase;">&nbsp;Github</span>
+                    </span>
+                </a>
+            </li>-->
+            <!--<li><a title="Stack Overflow" href="./" rel="external"><span class="fa fa-stack-overflow"></span></a></li>-->
+            <!--<li><a title="Google+" href="./" rel="external"><span class="fa fa-google-plus"></span></a></li>-->
+            <!--<li><a title="LinkedIn" href="./" rel="external"><span class="fa fa-linkedin"></span></a></li>-->
+            <!--<li><a title="Last.fm" href="./" rel="external"><span class="fa fa-lastfm"></span></a></li>-->
+        <!--</ul>
+    </div>-->
+
+</div>
+
+<div id="right" class="clearfix">
+    
+<div id="post">
+    <div class="post-header">
+    <div id="post-meta" class="row">
+        <strong>February 17, 2022</strong>
+        
+        <span class="col-lg-6 right">By: Oscar Jay LEW</span>
+        
+    </div>
+    <h1>Using MUI as a Framework</h1>
+</div>
+<div>
+    
+    <p>In my previous blog, I have mentioned that I have switched from figwheel to shadow-cljs, and that I have also chosen to use Reagent for my web app.</p><p>For the past two weeks, I have further chosen to use reagent-material-ui as the framework for my Reagent components. reagent-material-ui is a wrapper for MUI, which is a very popular framework for React components.</p><p>I originally planned to also incorporate an emotion-like library to my project, which is a library designed for writing css styles in JS, but the two libraries that I tried (khmelevskii/emotion-cljs and dvingo/cljs-emotion) were incompatible with the web app, i.e., errors were shown during compilation. As a result, I continued to use the default setup for writing css, which is to provide a nested map to the Reagent component.</p><pre><code class="clojure">{:style {:color “grey”}}
+</code></pre><p>I also started looking into Solidity, which is the language used for smart contracts. The language was not difficult to pick up as it shared similar structures as C++.</p>
+</div>
+
+<br/>
+
+    <!--<div id="prev-next">
+        
+        <a class="button" href="/HKU-TDLEG-website/posts-output/2022-02-24-Blog-Post-Grace-ZHONG-Yanting/2022-02-24-Blog-Post-Grace-ZHONG-Yanting/">&laquo; First Blog - Grace Zhong</a>
+        
+        
+        <a class="right button" href="/HKU-TDLEG-website/posts-output/2022-02-11-Blog-Post-Kevin-ZHANG-Wenkai/2022-02-11-Blog-Post-Kevin-ZHANG-Wenkai/">Blog Three - A More Mature Website &raquo;</a>
+        
+    </div>-->
+
+    
+
+
+</div>
+
+<hr/>
+<div id="footercont" class="clearfix">Copyright &copy; 2022 HKU-TDLEG
+    <p>Powered by <a href="http://cryogenweb.org" target="blank">Cryogen</a></p>
+
+</div>
+</div>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="/HKU-TDLEG-website/js/highlight.pack.js" type="application/javascript"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="/HKU-TDLEG-website/js/scripts.js" type="application/javascript"></script>
+
+
+</body>
+</html>

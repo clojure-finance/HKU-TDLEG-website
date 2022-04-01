@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<head>
+    <!-- Website Template designed by www.downloadwebsitetemplates.co.uk -->
+    <!-- Modified to fit Cryogen.-->
+    <meta charset="UTF-8">
+    <title>HKU-TDLEG: Syntax Design</title>
+    
+<meta name="keywords" content="">
+
+<meta name="description" content="With the foundation of the query being developed, I could start working on the syntax design itself. The syntax design is flexible with the help of macros. We could develop a syntax for our DSL as long as it is recognised by the Clojure language (i.e. following some fundamental rules and syntax imposed by Clojure).Clojure has a heavy use of expressions in the language. Every expression is separated and seen as a separate object to Clojure. It could not phrase or recognise syntax like DT[, col1,col2] - Clojure cannot extract the keywords like col1 and col2 here. In other words, spacing is very important in Clojure, every expression is separated by a space. It is a fundamental syntax of Clojure. This is the biggest limitation imposed by Clojure.">
+
+<meta property="og:description" content="With the foundation of the query being developed, I could start working on the syntax design itself. The syntax design is flexible with the help of macros. We could develop a syntax for our DSL as long as it is recognised by the Clojure language (i.e. following some fundamental rules and syntax imposed by Clojure).Clojure has a heavy use of expressions in the language. Every expression is separated and seen as a separate object to Clojure. It could not phrase or recognise syntax like DT[, col1,col2] - Clojure cannot extract the keywords like col1 and col2 here. In other words, spacing is very important in Clojure, every expression is separated by a space. It is a fundamental syntax of Clojure. This is the biggest limitation imposed by Clojure.">
+
+<meta property="og:url" content="https://clojure-finance.github.io/HKU-TDLEG-website/HKU-TDLEG-website/posts-output/2022-02-26-Blog-Post-Parry-CHOI-Chong-Hing/2022-02-26-Blog-Post-Parry-CHOI-Chong-Hing/" />
+<meta property="og:title" content="Syntax Design" />
+<meta property="og:type" content="article" />
+
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57.png">
+    <link rel="shortcut icon" href="images/ico/favicon.png">
+    <!--[if IE]><![endif]-->
+    <link href="/HKU-TDLEG-website/css/buttons.css" rel="stylesheet" type="text/css" />
+    <link href="/HKU-TDLEG-website/css/menu.css" rel="stylesheet" type="text/css" />
+    <link href="/HKU-TDLEG-website/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="/HKU-TDLEG-website/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/HKU-TDLEG-website/css/typography.css" rel="stylesheet" type="text/css" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/tomorrow-night-eighties.min.css">
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--To show Markdown formula-->
+    <!--$ is for inline elements, $$ is for block elements -->
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          extensions: ["tex2jax.js"],
+          jax: ["input/TeX", "output/HTML-CSS"],
+          tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true
+          },
+          "HTML-CSS": { availableFonts: ["TeX"] }
+        });
+    </script>
+    <!--load newest MathJax file-->
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</head>
+<body>
+
+<div id="left">
+
+    <p id="logo">
+        <a title="HKU-TDLEG" href="/HKU-TDLEG-website/">
+            <span class="fa fa-sitemap"></span>
+            <span class="text">HKU-TDLEG</span>
+        </a>
+    </p>
+
+    <div id="menucont" class="bodycontainer clearfix">
+        <div class="menutitle">
+            <p><span class="fa fa-reorder"></span><strong>Menu</strong></p>
+        </div>
+        <ul class="menu">
+            <li ><a title="Home" href="/HKU-TDLEG-website/">Home</a></li>
+            
+            
+            <li >
+                <a href="/HKU-TDLEG-website/pages-output/Grace-ZHONG-Yanting/">Clojure Heap</a>
+            </li>
+            
+            <li >
+                <a href="/HKU-TDLEG-website/pages-output/Parry-CHOI-Chong-Hing/">Data Processing Domain-Specific Language in Clojure</a>
+            </li>
+            
+            <li >
+                <a href="/HKU-TDLEG-website/pages-output/Cindy-WANG-Xizhuo/">Delta Hedging With Clojure Backtesting Library</a>
+            </li>
+            
+            <li >
+                <a href="/HKU-TDLEG-website/pages-output/ZHU-Jiarui/">Development of Heap Structure for Data Storage and Output in Clojure</a>
+            </li>
+            
+            <li >
+                <a href="/HKU-TDLEG-website/pages-output/LIN-Maoran/">Exploring the Signaling Effect of Equity Offering in Venture Capital Investment</a>
+            </li>
+            
+            <li >
+                <a href="/HKU-TDLEG-website/pages-output/Kevin-ZHANG-Wenkai/">HKU-TDLEG Website Development</a>
+            </li>
+            
+            <li >
+                <a href="/HKU-TDLEG-website/pages-output/Oscar-Jay-LEW/">WeJure</a>
+            </li>
+            
+            <!--ignore archives-->
+            <!--<li ><a title="Archives" href="/HKU-TDLEG-website/archives/">Archives</a></li>-->
+        </ul>
+    </div>
+
+    <!--<div id="socialmedia" class="clearfix">
+        <ul>
+            <li>
+                <a title="GitHub" href="https://github.com/clojure-finance" rel="external">
+                    <span class="fa fa-github">
+                        <span style="font-family: 'Montserrat';text-transform: uppercase;">&nbsp;Github</span>
+                    </span>
+                </a>
+            </li>-->
+            <!--<li><a title="Stack Overflow" href="./" rel="external"><span class="fa fa-stack-overflow"></span></a></li>-->
+            <!--<li><a title="Google+" href="./" rel="external"><span class="fa fa-google-plus"></span></a></li>-->
+            <!--<li><a title="LinkedIn" href="./" rel="external"><span class="fa fa-linkedin"></span></a></li>-->
+            <!--<li><a title="Last.fm" href="./" rel="external"><span class="fa fa-lastfm"></span></a></li>-->
+        <!--</ul>
+    </div>-->
+
+</div>
+
+<div id="right" class="clearfix">
+    
+<div id="post">
+    <div class="post-header">
+    <div id="post-meta" class="row">
+        <strong>February 26, 2022</strong>
+        
+        <span class="col-lg-6 right">By: Parry CHOI Chong Hing</span>
+        
+    </div>
+    <h1>Syntax Design</h1>
+</div>
+<div>
+    
+    <p>With the foundation of the query being developed, I could start working on the syntax design itself. The syntax design is flexible with the help of macros. We could develop a syntax for our DSL as long as it is recognised by the Clojure language (i.e. following some fundamental rules and syntax imposed by Clojure).</p><p>Clojure has a heavy use of expressions in the language. Every expression is separated and seen as a separate object to Clojure. It could not phrase or recognise syntax like <code>DT[, col1,col2]</code> - Clojure cannot extract the keywords like <code>col1</code> and <code>col2</code> here. In other words, spacing is very important in Clojure, every expression is separated by a space. It is a fundamental syntax of Clojure. This is the biggest limitation imposed by Clojure.</p><p>The design of the query syntax has three main parts:</p><ol><li><p>Separation between the selections: How can Clojure recognise the sections of the query (i.e rows, columns, group by and other functions)?</p></li><li><p>Aggregate Functions: How can we nest the aggregated columns in the syntax?</p></li><li><p>Filtering Functions: How can we nest the filtering function in the syntax?</p></li></ol><p>These three parts would largely determine the final syntax of the DSL. A few versions have been developed during the process. Here shows some of the main breakthroughs in the process:</p><ol><li><p><u>Separation between the selections</u></p><p>With the help of macros, indeed, it would not be a big problem. We could simply add a symbol in between to note the separation (like the comma in other languages). However, it is important to note that, for the symbol and the syntax being recognised by Clojure, the symbol should be regarded as a separate expression. For example, here is the first version of the separation syntax:</p><pre><code>dt-get DT '[row_filtering , column_selection , group_by_operation]
+</code></pre><p>It is easy to notice that the comma is used as the symbol. It has a space in front and after the comma, making it a valid distinct expression in the syntax. However, it is later found that the comma is not recognized by Clojure - it would simply ignore its existence. Instead, the <code>&amp;</code> symbol is used instead. The final version is the following:</p><pre><code>dt-get DT '[row_filtering &amp; column_selection &amp; group_by_operation].
+</code></pre></li><li><p><u>Aggregate Functions</u></p><p>Aggregate Functions is tricky. At first glance, it seems to be a function (and perhaps it <em><strong>is</strong></em> a function in other languages). However, in our case, with the foundation we have, it is just a special column selection. It is, in fact, the same as selecting other columns in the pipeline created. So, it is simplified to be a recognition problem in our case. In other words, to our DSL, all it needs to know is the aggregating operation and column being applied, no function is involved. Therefore, a simple design of the following is applied:</p><p>Aggregate Column: <code>[aggregate_keyword column_applied]</code></p><p>Normal Column: <code>column_name</code></p><p>However, I think the use of nested bracket make it complicated (as least looked complicated) and user-unfriendly. So I decided to do a simple aggregate keyword scan to find the aggregate column which ultimately eliminates the use of brackets. Nice!</p></li><li><p><u>Filtering Functions</u></p><p>Filtering is <em>powerful</em> in Clojure. Normal filtering in a typical query would be simple; for example, <code>col1 &lt; 2000 or col2 != 20</code>. It is due to the limitation of the filtering provided by other languages. In Clojure, however, the filtering function has no restrictions, as long as it returns a boolean result. That is something we have not seen in other data processing libraries (at least most of them). Such powerful ability of Clojure has given me a huge incentive not to limit users' ability in using such filtering function. So, the design of the filtering functions is, perhaps complicated, the following:</p><p><code>[column filtering_function]</code></p><p>The filtering_function is simply the built-in function in Clojure. It would be Clojure-like and, in fact, easy to use, even though it may seem a bit complicated at first.</p></li></ol><p><u>The Final Design</u><br />
+Here shows the final design for the DSL syntax:</p><pre><code class="clojure">dt-get DT '[[col1 filtering_function1] [agg_keyword col2 filtering_function2] &amp; col1 agg_keyword col2 &amp; col3 col4]
+</code></pre>
+</div>
+
+<br/>
+
+    <!--<div id="prev-next">
+        
+        <a class="button" href="/HKU-TDLEG-website/posts-output/2022-03-01-Blog-Post-Kevin-ZHANG-Wenkai/2022-03-01-Blog-Post-Kevin-ZHANG-Wenkai/">&laquo; Blog Four - Daily Maintenance</a>
+        
+        
+        <a class="right button" href="/HKU-TDLEG-website/posts-output/2022-02-24-Blog-Post-Grace-ZHONG-Yanting/2022-02-24-Blog-Post-Grace-ZHONG-Yanting/">First Blog - Grace Zhong &raquo;</a>
+        
+    </div>-->
+
+    
+
+
+</div>
+
+<hr/>
+<div id="footercont" class="clearfix">Copyright &copy; 2022 HKU-TDLEG
+    <p>Powered by <a href="http://cryogenweb.org" target="blank">Cryogen</a></p>
+
+</div>
+</div>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="/HKU-TDLEG-website/js/highlight.pack.js" type="application/javascript"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="/HKU-TDLEG-website/js/scripts.js" type="application/javascript"></script>
+
+
+</body>
+</html>

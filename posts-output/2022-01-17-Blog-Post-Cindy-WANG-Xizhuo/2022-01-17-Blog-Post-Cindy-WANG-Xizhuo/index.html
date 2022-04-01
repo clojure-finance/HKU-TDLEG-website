@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<head>
+    <!-- Website Template designed by www.downloadwebsitetemplates.co.uk -->
+    <!-- Modified to fit Cryogen.-->
+    <meta charset="UTF-8">
+    <title>HKU-TDLEG: Data Science in Finance - Second Blog</title>
+    
+<meta name="keywords" content="">
+
+<meta name="description" content="Work I have done these daysManaging the option datasetThe option dataset downloaded from the WRDS website is different from the CRSP dataset used in the backtesting library. Hence, some work is needed to make the dataset standard like formatting.Settling the selection rules for option tradingThe initial rule for filtering options is to select the options with the top five largest trading volume on a given day. Their position delta is calculated by linear combination. Then the quantity to trade is setted to make the whole position delta neutral.Learning ClojureDuring the coding process, I also learned Clojure and got a deeper understanding about the data structures, especially the immutable sequences. Due to this property, we need to use swap and reset to change value.">
+
+<meta property="og:description" content="Work I have done these daysManaging the option datasetThe option dataset downloaded from the WRDS website is different from the CRSP dataset used in the backtesting library. Hence, some work is needed to make the dataset standard like formatting.Settling the selection rules for option tradingThe initial rule for filtering options is to select the options with the top five largest trading volume on a given day. Their position delta is calculated by linear combination. Then the quantity to trade is setted to make the whole position delta neutral.Learning ClojureDuring the coding process, I also learned Clojure and got a deeper understanding about the data structures, especially the immutable sequences. Due to this property, we need to use swap and reset to change value.">
+
+<meta property="og:url" content="https://clojure-finance.github.io/HKU-TDLEG-website/HKU-TDLEG-website/posts-output/2022-01-17-Blog-Post-Cindy-WANG-Xizhuo/2022-01-17-Blog-Post-Cindy-WANG-Xizhuo/" />
+<meta property="og:title" content="Data Science in Finance - Second Blog" />
+<meta property="og:type" content="article" />
+
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57.png">
+    <link rel="shortcut icon" href="images/ico/favicon.png">
+    <!--[if IE]><![endif]-->
+    <link href="/HKU-TDLEG-website/css/buttons.css" rel="stylesheet" type="text/css" />
+    <link href="/HKU-TDLEG-website/css/menu.css" rel="stylesheet" type="text/css" />
+    <link href="/HKU-TDLEG-website/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="/HKU-TDLEG-website/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/HKU-TDLEG-website/css/typography.css" rel="stylesheet" type="text/css" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/tomorrow-night-eighties.min.css">
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--To show Markdown formula-->
+    <!--$ is for inline elements, $$ is for block elements -->
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          extensions: ["tex2jax.js"],
+          jax: ["input/TeX", "output/HTML-CSS"],
+          tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true
+          },
+          "HTML-CSS": { availableFonts: ["TeX"] }
+        });
+    </script>
+    <!--load newest MathJax file-->
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</head>
+<body>
+
+<div id="left">
+
+    <p id="logo">
+        <a title="HKU-TDLEG" href="/HKU-TDLEG-website/">
+            <span class="fa fa-sitemap"></span>
+            <span class="text">HKU-TDLEG</span>
+        </a>
+    </p>
+
+    <div id="menucont" class="bodycontainer clearfix">
+        <div class="menutitle">
+            <p><span class="fa fa-reorder"></span><strong>Menu</strong></p>
+        </div>
+        <ul class="menu">
+            <li ><a title="Home" href="/HKU-TDLEG-website/">Home</a></li>
+            
+            
+            <li >
+                <a href="/HKU-TDLEG-website/pages-output/Grace-ZHONG-Yanting/">Clojure Heap</a>
+            </li>
+            
+            <li >
+                <a href="/HKU-TDLEG-website/pages-output/Parry-CHOI-Chong-Hing/">Data Processing Domain-Specific Language in Clojure</a>
+            </li>
+            
+            <li >
+                <a href="/HKU-TDLEG-website/pages-output/Cindy-WANG-Xizhuo/">Delta Hedging With Clojure Backtesting Library</a>
+            </li>
+            
+            <li >
+                <a href="/HKU-TDLEG-website/pages-output/ZHU-Jiarui/">Development of Heap Structure for Data Storage and Output in Clojure</a>
+            </li>
+            
+            <li >
+                <a href="/HKU-TDLEG-website/pages-output/LIN-Maoran/">Exploring the Signaling Effect of Equity Offering in Venture Capital Investment</a>
+            </li>
+            
+            <li >
+                <a href="/HKU-TDLEG-website/pages-output/Kevin-ZHANG-Wenkai/">HKU-TDLEG Website Development</a>
+            </li>
+            
+            <li >
+                <a href="/HKU-TDLEG-website/pages-output/Oscar-Jay-LEW/">WeJure</a>
+            </li>
+            
+            <!--ignore archives-->
+            <!--<li ><a title="Archives" href="/HKU-TDLEG-website/archives/">Archives</a></li>-->
+        </ul>
+    </div>
+
+    <!--<div id="socialmedia" class="clearfix">
+        <ul>
+            <li>
+                <a title="GitHub" href="https://github.com/clojure-finance" rel="external">
+                    <span class="fa fa-github">
+                        <span style="font-family: 'Montserrat';text-transform: uppercase;">&nbsp;Github</span>
+                    </span>
+                </a>
+            </li>-->
+            <!--<li><a title="Stack Overflow" href="./" rel="external"><span class="fa fa-stack-overflow"></span></a></li>-->
+            <!--<li><a title="Google+" href="./" rel="external"><span class="fa fa-google-plus"></span></a></li>-->
+            <!--<li><a title="LinkedIn" href="./" rel="external"><span class="fa fa-linkedin"></span></a></li>-->
+            <!--<li><a title="Last.fm" href="./" rel="external"><span class="fa fa-lastfm"></span></a></li>-->
+        <!--</ul>
+    </div>-->
+
+</div>
+
+<div id="right" class="clearfix">
+    
+<div id="post">
+    <div class="post-header">
+    <div id="post-meta" class="row">
+        <strong>January 17, 2022</strong>
+        
+        <span class="col-lg-6 right">By: Cindy WANG Xizhuo</span>
+        
+    </div>
+    <h1>Data Science in Finance - Second Blog</h1>
+</div>
+<div>
+    
+    <h2 id="work-i-have-done-these-days">Work I have done these days</h2><ul><li><p>Managing the option dataset</p><p>The option dataset downloaded from the WRDS website is different from the CRSP dataset used in the backtesting library. Hence, some work is needed to make the dataset standard like formatting.</p></li><li><p>Settling the selection rules for option trading</p><p>The initial rule for filtering options is to select the options with the top five largest trading volume on a given day. Their position delta is calculated by linear combination. Then the quantity to trade is setted to make the whole position delta neutral.</p></li><li><p>Learning Clojure</p><p>During the coding process, I also learned Clojure and got a deeper understanding about the data structures, especially the immutable sequences. Due to this property, we need to use <code>swap</code> and <code>reset</code> to change value.</p></li></ul><h2 id="difficulties-i-encountered">Difficulties I encountered</h2><ul><li><p>Maintain options</p><p>Although I have walked through the <code>maintain-tics</code> function in the backtesting library, I still had no idea about how to maintain the options becuause the option dataset is different from the CRSP dataset. There are various options on the same day, not like the CRSP where there is only one ticker but on consecutive days. To solve this problem, I am thinking about maintaining another dataset for the available options and also another portfolio only for options. By combining the options with the stock and cash portfolio, we can generate the whole position value.</p></li><li><p>Automate trading</p><p>Since the dataset is different, the ways to iterate to the next date may also vary. I am trying to figure out a way to iterate to the next date in the option dataset.</p></li></ul><h2 id="heading-for-the-next-stage">Heading for the next stage</h2><ul><li><p>Execute automated trading</p><p>I will try to bring the idea of maintaining options into practice and write some codes to automate trading.</p></li><li><p>Optimizing delta</p><p>As the topic of my research, I will adjust the calculation of delta and try to optimize delta hedging.</p></li></ul>
+</div>
+
+<br/>
+
+    <!--<div id="prev-next">
+        
+        <a class="button" href="/HKU-TDLEG-website/posts-output/2022-01-17-Blog-Post-LIN-Maoran/2022-01-17-Blog-Post-LIN-Maoran/">&laquo; Concessions and Test Run of Game Model</a>
+        
+        
+        <a class="right button" href="/HKU-TDLEG-website/posts-output/2022-01-10-Blog-Post-Kevin-ZHANG-Wenkai/2022-01-10-Blog-Post-Kevin-ZHANG-Wenkai/">Blog One - Getting to Know Cryogen &raquo;</a>
+        
+    </div>-->
+
+    
+
+
+</div>
+
+<hr/>
+<div id="footercont" class="clearfix">Copyright &copy; 2022 HKU-TDLEG
+    <p>Powered by <a href="http://cryogenweb.org" target="blank">Cryogen</a></p>
+
+</div>
+</div>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="/HKU-TDLEG-website/js/highlight.pack.js" type="application/javascript"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="/HKU-TDLEG-website/js/scripts.js" type="application/javascript"></script>
+
+
+</body>
+</html>
