@@ -18,7 +18,7 @@ In this case, we need a maximum/minimum heap implementation scheme that is more 
 
 ## Details
 - [Poster](/pdf/Poster-ZHU-Jiarui.pdf)
-- [Virtual Poster Session](/mp4/Presentation-ZHU-Jiarui.mp4)
+- [Virtual poster session](/mp4/Presentation-ZHU-Jiarui.mp4)
 - [Proposal](/pdf/Proposal-ZHU-Jiarui.pdf)
 - [Summary report](/pdf/Report-ZHU-Jiarui.pdf)
 - [GitHub repository](https://github.com/clojure-finance/clojure-heap)
