@@ -94,7 +94,7 @@ This website showcases the TDLEG research projects of undergraduate students at 
 
   Contributor: Oscar Jay LEW
 
-  A decentralised social media using blockchain and ipfs.
+  A decentralized social network using blockchain and the interplanetary file system (IPFS).
 
   - [Blog posts and project page](/pages-output/Oscar-Jay-LEW)
   - [Proposal](/pdf/Proposal-Oscar-Jay-LEW.pdf)

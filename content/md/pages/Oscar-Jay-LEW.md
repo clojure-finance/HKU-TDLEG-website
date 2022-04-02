@@ -7,7 +7,7 @@
 Oscar Jay LEW
 
 ## Description
-A decentralised social media using blockchain and ipfs.
+A decentralized social network using blockchain and the interplanetary file system (IPFS).
 
 ## Blogs
 - [A Decentralised Social Media](/posts-output/2022-01-06-Blog-Post-Oscar-Jay-LEW/2022-01-06-Blog-Post-Oscar-Jay-LEW)
