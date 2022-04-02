@@ -29,6 +29,7 @@ This website showcases the TDLEG research projects of undergraduate students at 
   In this project, a DSL extension to the existing data processing library, ```tech.ml.dataset```, will be developed. A generic query using core data literal serves as the foundation of the DSL. This enables huge flexibility in defining the syntax, subject to Clojure’s limitation.
   
   - [Poster](/pdf/Poster-Parry-CHOI-Chong-Hing.pdf)
+  - [Virtual poster session](/mp4/Presentation-Parry-CHOI-Chong-Hing.mp4)
   - [Blog posts and project page](/pages-output/Parry-CHOI-Chong-Hing)
   - [Proposal](/pdf/Proposal-Parry-CHOI-Chong-Hing.pdf)
   - [Summary report](/pdf/Report-Parry-CHOI-Chong-Hing.pdf)

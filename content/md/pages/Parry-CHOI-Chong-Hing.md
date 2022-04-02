@@ -18,6 +18,7 @@ In this project, a DSL extension to the existing data processing library, ```tec
 
 ## Details
 - [Poster](/pdf/Poster-Parry-CHOI-Chong-Hing.pdf)
+- [Virtual poster session](/mp4/Presentation-Parry-CHOI-Chong-Hing.mp4)
 - [Proposal](/pdf/Proposal-Parry-CHOI-Chong-Hing.pdf)
 - [Summary report](/pdf/Report-Parry-CHOI-Chong-Hing.pdf)
 - [GitHub repository](https://github.com/clojure-finance/HKU-TDLEG-data-processing-DSL)
