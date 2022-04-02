@@ -1,9 +1,9 @@
-{:title "Welcome to HKU-TDLEG website"
+{:title "TDLEG Undergraduate Research at HKU"
  :layout :page
  :page-index 0
  :home? true}
 
-This is the home page of HKU-TDLEG of [Dr. Matthias Buehlmaier](http://www.buehlmaier.net/), a website keeping track of our contributors' project progress.
+This website showcases the TDLEG research projects of undergraduate students at the University of Hong Kong (HKU). TDLEG is the Teaching Development and Language Enhancement Grant of PI [Dr. Matthias Buehlmaier](http://www.buehlmaier.net/) (HKU) and Co-I [Prof. Dr. Gregor Dorfleitner](https://www.uni-regensburg.de/business-economics-and-management-information-systems/business-dorfleitner/staff/gregor-dorfleitner/index.html) (University of Regensburg).
 
 ## Project List
 

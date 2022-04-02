@@ -15,6 +15,7 @@ Developing a website can be hard, but tools make it easier. In this project, a s
 - [Blog Three - A More Mature Website](/posts-output/2022-02-11-Blog-Post-Kevin-ZHANG-Wenkai/2022-02-11-Blog-Post-Kevin-ZHANG-Wenkai)
 - [Blog Four - Daily Maintenance](/posts-output/2022-03-01-Blog-Post-Kevin-ZHANG-Wenkai/2022-03-01-Blog-Post-Kevin-ZHANG-Wenkai)
 - [Blog Five - A Major Version Update](/posts-output/2022-03-18-Blog-Post-Kevin-ZHANG-Wenkai/2022-03-18-Blog-Post-Kevin-ZHANG-Wenkai)
+- [Blog Six - Another Major Version Update](/posts-output/2022-04-01-Blog-Post-Kevin-ZHANG-Wenkai/2022-04-01-Blog-Post-Kevin-ZHANG-Wenkai)
 
 ## Details
 - [Poster](/pdf/Poster-Kevin-ZHANG-Wenkai.pdf)
