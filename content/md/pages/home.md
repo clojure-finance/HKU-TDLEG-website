@@ -42,6 +42,7 @@ This website showcases the TDLEG research projects of undergraduate students at 
   Construct a delta hedging strategy using the backtesting library in Clojure. Optimize the calculation of delta based on data science methods. Generate return results and use them for comparison.
 
   - [Poster](/pdf/Poster-Cindy-WANG-Xizhuo.pdf)
+  - [Virtual poster session](/mp4/Presentation-Cindy-WANG-Xizhuo.mp4)
   - [Blog posts and project page](/pages-output/Cindy-WANG-Xizhuo)
   - [Proposal](/pdf/Proposal-Cindy-WANG-Xizhuo.pdf)
   - [Summary report](/pdf/Report-Cindy-WANG-Xizhuo.pdf)

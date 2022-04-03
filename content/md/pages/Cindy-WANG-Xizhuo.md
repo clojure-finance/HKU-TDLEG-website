@@ -16,6 +16,7 @@ Construct a delta hedging strategy using the backtesting library in Clojure. Opt
 
 ## Details
 - [Poster](/pdf/Poster-Cindy-WANG-Xizhuo.pdf)
+- [Virtual poster session](/mp4/Presentation-Cindy-WANG-Xizhuo.mp4)
 - [Proposal](/pdf/Proposal-Cindy-WANG-Xizhuo.pdf)
 - [Summary report](/pdf/Report-Cindy-WANG-Xizhuo.pdf)
 - [GitHub repository](https://github.com/clojure-finance/HKU-TDLEG-backtesting-strategies-clojure)
