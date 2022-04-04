@@ -99,4 +99,5 @@ This website showcases the TDLEG research projects of undergraduate students at 
 
   - [Blog posts and project page](/pages-output/Oscar-Jay-LEW)
   - [Proposal](/pdf/Proposal-Oscar-Jay-LEW.pdf)
+  - [Summary report](/pdf/Report-Oscar-Jay-LEW.pdf)
   - [GitHub repository](https://github.com/clojure-finance/HKU-TDLEG-WeJure)
