@@ -3,7 +3,7 @@
  :page-index 0
  :home? true}
 
-This website showcases the TDLEG research projects of undergraduate students at the University of Hong Kong (HKU). TDLEG is the Teaching Development and Language Enhancement Grant of PI [Dr. Matthias Buehlmaier](http://www.buehlmaier.net/) (HKU) and Co-I [Prof. Dr. Gregor Dorfleitner](https://www.uni-regensburg.de/business-economics-and-management-information-systems/business-dorfleitner/staff/gregor-dorfleitner/index.html) (University of Regensburg).
+This website showcases the TDLEG research projects of undergraduate students at the University of Hong Kong (HKU). TDLEG is the Teaching Development and Language Enhancement Grant of PI [Dr. Matthias Buehlmaier](http://www.buehlmaier.net/) (HKU) and Co-I [Prof. Dr. Gregor Dorfleitner](https://www.uni-regensburg.de/business-economics-and-management-information-systems/business-dorfleitner/staff/gregor-dorfleitner/index.html) (University of Regensburg). The TDLEG Title is: "Creating a Domain-Specific Language for Data Science in Clojure With Applications in Finance."
 
 ## Project List
 
