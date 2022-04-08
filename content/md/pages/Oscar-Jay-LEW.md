@@ -16,6 +16,7 @@ A decentralized social network using blockchain and the interplanetary file syst
 - [Using MUI as a Framework](/posts-output/2022-02-17-Blog-Post-Oscar-Jay-LEW/2022-02-17-Blog-Post-Oscar-Jay-LEW)
 
 ## Details
+- [Poster](/pdf/Poster-Oscar-Jay-LEW.pdf)
 - [Proposal](/pdf/Proposal-Oscar-Jay-LEW.pdf)
 - [Summary report](/pdf/Report-Oscar-Jay-LEW.pdf)
 - [GitHub repository](https://github.com/clojure-finance/HKU-TDLEG-WeJure)
