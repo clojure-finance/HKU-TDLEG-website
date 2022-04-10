@@ -17,6 +17,7 @@ A decentralized social network using blockchain and the interplanetary file syst
 
 ## Details
 - [Poster](/pdf/Poster-Oscar-Jay-LEW.pdf)
+- [Virtual poster session](/mp4/Presentation-Oscar-Jay-LEW.mp4)
 - [Proposal](/pdf/Proposal-Oscar-Jay-LEW.pdf)
 - [Summary report](/pdf/Report-Oscar-Jay-LEW.pdf)
 - [GitHub repository](https://github.com/clojure-finance/HKU-TDLEG-WeJure)

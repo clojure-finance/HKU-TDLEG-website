@@ -98,6 +98,7 @@ This website showcases the TDLEG research projects of undergraduate students at 
   A decentralized social network using blockchain and the interplanetary file system (IPFS).
 
   - [Poster](/pdf/Poster-Oscar-Jay-LEW.pdf)
+  - [Virtual poster session](/mp4/Presentation-Oscar-Jay-LEW.mp4)
   - [Blog posts and project page](/pages-output/Oscar-Jay-LEW)
   - [Proposal](/pdf/Proposal-Oscar-Jay-LEW.pdf)
   - [Summary report](/pdf/Report-Oscar-Jay-LEW.pdf)
