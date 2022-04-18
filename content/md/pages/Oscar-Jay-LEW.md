@@ -1,4 +1,4 @@
-{:title "WeJure"
+{:title "WeJure: A Decentralized Social Network on the Blockchain"
  :layout :page
  :page-index 7
  :navbar? true}
@@ -7,7 +7,7 @@
 Oscar Jay LEW
 
 ## Description
-A decentralized social network using blockchain and the interplanetary file system (IPFS).
+Social networks such as Twitter, Facebook, or Instagram are centralized in the sense that a single company runs them and stores all user data and user content centrally. While this allows for easier storage, the data generated largely belongs to the company and not the users. This issue is highlighted by the recent debate about content moderation. To tackle this issue from a new perspective, we develop a decentralized social network that uses the the decentralized "interplanetary file system" (IPFS) and runs on a blockchain.
 
 ## Blogs
 - [A Decentralised Social Media](/posts-output/2022-01-06-Blog-Post-Oscar-Jay-LEW/2022-01-06-Blog-Post-Oscar-Jay-LEW)

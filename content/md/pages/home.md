@@ -91,11 +91,11 @@ This website showcases the TDLEG research projects of undergraduate students at 
   - [Summary report](/pdf/Report-Kevin-ZHANG-Wenkai.pdf)
   - [GitHub repository](https://github.com/clojure-finance/HKU-TDLEG-website)
 
-### WeJure
+### WeJure: A Decentralized Social Network on the Blockchain
 
   Contributor: Oscar Jay LEW
 
-  A decentralized social network using blockchain and the interplanetary file system (IPFS).
+  Social networks such as Twitter, Facebook, or Instagram are centralized in the sense that a single company runs them and stores all user data and user content centrally. While this allows for easier storage, the data generated largely belongs to the company and not the users. This issue is highlighted by the recent debate about content moderation. To tackle this issue from a new perspective, we develop a decentralized social network that uses the the decentralized "interplanetary file system" (IPFS) and runs on a blockchain.
 
   - [Poster](/pdf/Poster-Oscar-Jay-LEW.pdf)
   - [Virtual poster session](/mp4/Presentation-Oscar-Jay-LEW.mp4)
