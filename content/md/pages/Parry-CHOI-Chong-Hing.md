@@ -11,14 +11,14 @@ Domain Specific Language (DSL) is a computer language, declared syntax or gramma
 
 In this project, a DSL extension to the existing data processing library, ```tech.ml.dataset```, will be developed. A generic query using core data literal serves as the foundation of the DSL. This enables huge flexibility in defining the syntax, subject to Clojure’s limitation.
 
-## Blogs
+## Blog posts (reflective journals)
 - [Implementation of Query Foundation](/posts-output/2022-01-29-Blog-Post-Parry-CHOI-Chong-Hing/2022-01-29-Blog-Post-Parry-CHOI-Chong-Hing)
 - [Syntax Design](/posts-output/2022-02-26-Blog-Post-Parry-CHOI-Chong-Hing/2022-02-26-Blog-Post-Parry-CHOI-Chong-Hing)
 - [Sort-by Function Implementation](/posts-output/2022-03-12-Blog-Post-Parry-CHOI-Chong-Hing/2022-03-12-Blog-Post-Parry-CHOI-Chong-Hing)
 
 ## Details
 - [Poster](/pdf/Poster-Parry-CHOI-Chong-Hing.pdf)
-- [Virtual poster session](/mp4/Presentation-Parry-CHOI-Chong-Hing.mp4)
-- [Proposal](/pdf/Proposal-Parry-CHOI-Chong-Hing.pdf)
-- [Summary report](/pdf/Report-Parry-CHOI-Chong-Hing.pdf)
+- [Virtual poster presentation (video)](/mp4/Presentation-Parry-CHOI-Chong-Hing.mp4)
+- [Research proposal](/pdf/Proposal-Parry-CHOI-Chong-Hing.pdf)
+- [Research report](/pdf/Report-Parry-CHOI-Chong-Hing.pdf)
 - [GitHub repository](https://github.com/clojure-finance/HKU-TDLEG-data-processing-DSL)

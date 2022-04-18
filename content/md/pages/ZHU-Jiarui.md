@@ -13,12 +13,12 @@ Existing implementations are mostly based on index operations in vectors, rather
 
 In this case, we need a maximum/minimum heap implementation scheme that is more in line with the characteristics of the heap.
 
-## Blogs
+## Blog posts (reflective journals)
 - [Clojure Methods for OOP Development](/posts-output/2022-03-14-Blog-Post-ZHU-Jiarui/2022-03-14-Blog-Post-ZHU-Jiarui)
 
 ## Details
 - [Poster](/pdf/Poster-ZHU-Jiarui.pdf)
-- [Virtual poster session](/mp4/Presentation-ZHU-Jiarui.mp4)
-- [Proposal](/pdf/Proposal-ZHU-Jiarui.pdf)
-- [Summary report](/pdf/Report-ZHU-Jiarui.pdf)
+- [Virtual poster presentation (video)](/mp4/Presentation-ZHU-Jiarui.mp4)
+- [Research proposal](/pdf/Proposal-ZHU-Jiarui.pdf)
+- [Research report](/pdf/Report-ZHU-Jiarui.pdf)
 - [GitHub repository](https://github.com/clojure-finance/clojure-heap)
