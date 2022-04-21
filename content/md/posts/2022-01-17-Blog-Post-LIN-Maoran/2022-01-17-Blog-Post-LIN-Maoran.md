@@ -25,8 +25,10 @@ $$ R \ge I (1 + r) $$
 1. Therefore, for firms’ benchmark, their net profit after the offer should be larger than rejecting this project and continuing their own works.
 
 $$ (1 - s)(\pi + R) \ge \pi $$
-
+<p>
 $$s \le \frac{R}{(\pi + R)}$$
+</p>
+
 ```
 (defn benchmark-firm
 "The firms' benchmark of s" [P] (/ @R (+ @R P)))

@@ -11,9 +11,9 @@ Hence, the total probability of observing a successful project in firms' experim
 $$x (\lambda, t) = p_0 + (1 - p_0) e^{-\lambda t}$$
 
 Therefore, the beliefs of firms at t about a successfully investment would be:
-
+<p>
 $$p^* (\lambda, t) = \frac{p_0}{p_0 + (1 - p_0) e^{-\lambda t}}$$
-
+</p>
 **1. Under symmetrical information, this belief will also be known by investors.**
 
 In Clojure, the beliefs under symmetrical information could be denoted as:
@@ -35,13 +35,13 @@ In Clojure, the beliefs under symmetrical information could be denoted as:
 **2. However, under asymmetrical information, the investors' belief about the projects' success rate should merely be determined by their beliefs $p$ about the firms' quality in market.**
 
 For investors, their expectation for firms to observe a successful investment project in their experiments would be:
-
+<p>
 $$\tilde{x} (\lambda, t) = p * x(\lambda_l, t) + (1 - p) * x (\lambda_h, t)$$
-
+</p>
 Then, the investors beliefs about the probability of a successful investment would be:
-
+<p>
 $$\tilde{p} (t) = \frac{p_0}{\tilde{x} (\lambda, t)}$$
-
+</p>
 However, the firms' beliefs would still be:
 
 $$x(\lambda, t)=p_0+(1 - p_0) e^{-\lambda t}$$
