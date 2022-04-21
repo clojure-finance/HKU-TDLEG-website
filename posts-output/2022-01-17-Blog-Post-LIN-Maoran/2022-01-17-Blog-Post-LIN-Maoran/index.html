@@ -141,7 +141,9 @@
     (def rate (atom (nth (exogenous "r") 0)))
     (def H (atom (nth (exogenous "H") 0)))
 (def L (atom (nth (exogenous "L") 0)))
-</code></pre><p>*Here I was using atom to make these data mutable. I will do numerous tests afterwards. This will give me more flexibility in experimentation.</p><p>This project should have more attractiveness than investing elsewhere, which is revealed in:</p><p>$$ R \ge I (1 + r) $$</p><ol><li>Therefore, for firms’ benchmark, their net profit after the offer should be larger than rejecting this project and continuing their own works.</li></ol><p>$$ (1 - s)(\pi + R) \ge \pi $$</p><p><span r="">$$s \le \frac</span>{(\pi + R)}$$</p><pre><code>(defn benchmark-firm
+</code></pre><p>*Here I was using atom to make these data mutable. I will do numerous tests afterwards. This will give me more flexibility in experimentation.</p><p>This project should have more attractiveness than investing elsewhere, which is revealed in:</p><p>$$ R \ge I (1 + r) $$</p><ol><li>Therefore, for firms’ benchmark, their net profit after the offer should be larger than rejecting this project and continuing their own works.</li></ol><p>$$ (1 - s)(\pi + R) \ge \pi $$</p><p>
+$$s \le \frac{R}{(\pi + R)}$$
+</p><pre><code>(defn benchmark-firm
 "The firms' benchmark of s" [P] (/ @R (+ @R P)))
 </code></pre><ol start="2"><li>For investors’ benchmark, with beliefs that there is probability $q$ that the offer was sent by a low-type firm, their stakes should be larger than investing elsewhere. Hence:</li></ol><p>$$s \ge \frac{I (1 + r)}{(qL + (1 - q)H + R)} = f(q)$$</p><pre><code>(defn benchmark-investor
 "The firms' benchmark of s" [q]
